@@ -1,0 +1,1203 @@
+{
+  "version": "6caeceabe94857c6",
+  "generatedAt": "2026-08-09T06:20:10.940Z",
+  "items": [
+    {
+      "id": "afirmasi:afirmasi-diri-sebagai-orangtua",
+      "slug": "afirmasi-diri-sebagai-orangtua",
+      "type": "afirmasi",
+      "title": "Aku Orang Tua yang Sedang Belajar",
+      "category": "identitas-diri",
+      "coverEmoji": "🌷",
+      "excerpt": "Afirmasi untuk mengingatkan bahwa menjadi orang tua adalah proses belajar, bukan tuntutan kesempurnaan."
+    },
+    {
+      "id": "afirmasi:afirmasi-emosi-2",
+      "slug": "afirmasi-emosi-2",
+      "type": "afirmasi",
+      "title": "Aku Tidak Didefinisikan Oleh Satu Momen Emosi",
+      "category": "emosi",
+      "coverEmoji": "🌷",
+      "excerpt": "Aku tidak didefinisikan oleh satu momen emosi. Aku adalah ibu yang terus berusaha menjadi lebih baik setiap hari. Dan hari ini, aku memilih untuk kembali lembut…"
+    },
+    {
+      "id": "afirmasi:afirmasi-emosi-3",
+      "slug": "afirmasi-emosi-3",
+      "type": "afirmasi",
+      "title": "Aku Boleh Menyesal",
+      "category": "emosi",
+      "coverEmoji": "🌷",
+      "excerpt": "Aku boleh menyesal, tapi aku tidak akan berhenti di sana. Aku akan mendekat, memeluk anakku, dan memperbaiki hubungan kami. Karena cinta selalu punya jalan untu…"
+    },
+    {
+      "id": "afirmasi:afirmasi-emosi-4",
+      "slug": "afirmasi-emosi-4",
+      "type": "afirmasi",
+      "title": "Ya Allah",
+      "category": "emosi",
+      "coverEmoji": "🌷",
+      "excerpt": "Ya Allah, lembutkan hatiku… saat aku mulai keras tanpa sadar. Ingatkan aku untuk memilih sabar, bahkan saat emosiku sedang penuh."
+    },
+    {
+      "id": "afirmasi:afirmasi-emosi-5",
+      "slug": "afirmasi-emosi-5",
+      "type": "afirmasi",
+      "title": "Aku Belajar dari Setiap Kesalahanku",
+      "category": "emosi",
+      "coverEmoji": "🌷",
+      "excerpt": "Aku belajar dari setiap kesalahanku, bukan membencinya. Karena dari situlah aku tumbuh menjadi ibu yang lebih sadar dan penuh kasih."
+    },
+    {
+      "id": "afirmasi:afirmasi-hubungan-anak-1",
+      "slug": "afirmasi-hubungan-anak-1",
+      "type": "afirmasi",
+      "title": "Anakku bukan Beban",
+      "category": "hubungan-anak",
+      "coverEmoji": "🌷",
+      "excerpt": "Anakku bukan beban, dia adalah amanah yang penuh cinta. Mungkin hari ini terasa berat, tapi kehadirannya adalah hadiah dari Allah. Aku ingin belajar menikmatiny…"
+    },
+    {
+      "id": "afirmasi:afirmasi-hubungan-anak-2",
+      "slug": "afirmasi-hubungan-anak-2",
+      "type": "afirmasi",
+      "title": "Aku Tidak Ingin Hanya Sibuk Mengurus",
+      "category": "hubungan-anak",
+      "coverEmoji": "🌷",
+      "excerpt": "Aku tidak ingin hanya sibuk mengurus, tapi juga hadir sepenuh hati. Karena yang anakku ingat nanti bukan kesempurnaanku, tapi kehangatanku."
+    },
+    {
+      "id": "afirmasi:afirmasi-hubungan-anak-3",
+      "slug": "afirmasi-hubungan-anak-3",
+      "type": "afirmasi",
+      "title": "Aku Ingin Anakku Merasa Aman Bersamaku",
+      "category": "hubungan-anak",
+      "coverEmoji": "🌷",
+      "excerpt": "Aku ingin anakku merasa aman bersamaku. Bukan takut, bukan tertekan, tapi merasa dicintai tanpa syarat. Dan itu dimulai dari caraku hari ini."
+    },
+    {
+      "id": "afirmasi:afirmasi-hubungan-anak-4",
+      "slug": "afirmasi-hubungan-anak-4",
+      "type": "afirmasi",
+      "title": "Aku Belajar Melihat Dunia dari Sudut Pandang",
+      "category": "hubungan-anak",
+      "coverEmoji": "🌷",
+      "excerpt": "Aku belajar melihat dunia dari sudut pandang anakku. Bahwa tangisnya bukan sekadar rewel, tapi bahasa yang belum bisa ia ungkapkan. Aku ingin lebih memahami, bu…"
+    },
+    {
+      "id": "afirmasi:afirmasi-hubungan-anak-5",
+      "slug": "afirmasi-hubungan-anak-5",
+      "type": "afirmasi",
+      "title": "Aku Ingin Dikenang Sebagai Ibu yang Hangat",
+      "category": "hubungan-anak",
+      "coverEmoji": "🌷",
+      "excerpt": "Aku ingin dikenang sebagai ibu yang hangat. Yang meski lelah, tetap berusaha hadir dengan cinta. Dan aku sedang menuju ke sana, insyaAllah."
+    },
+    {
+      "id": "afirmasi:afirmasi-identitas-diri-2",
+      "slug": "afirmasi-identitas-diri-2",
+      "type": "afirmasi",
+      "title": "Allah Memilihku Menjadi Ibu untuk Anak Ini",
+      "category": "identitas-diri",
+      "coverEmoji": "🌷",
+      "excerpt": "Allah memilihku menjadi ibu untuk anak ini bukan tanpa alasan. Ada kekuatan dalam diriku yang mungkin belum sepenuhnya kusadari. Aku percaya, aku mampu menjalan…"
+    },
+    {
+      "id": "afirmasi:afirmasi-identitas-diri-3",
+      "slug": "afirmasi-identitas-diri-3",
+      "type": "afirmasi",
+      "title": "Aku Mungkin Lelah",
+      "category": "identitas-diri",
+      "coverEmoji": "🌷",
+      "excerpt": "Aku mungkin lelah, mungkin merasa tidak cukup. Tapi aku tetap ibu yang dipilih untuk anak ini. Dan itu sudah lebih dari cukup untuk hari ini."
+    },
+    {
+      "id": "afirmasi:afirmasi-identitas-diri-4",
+      "slug": "afirmasi-identitas-diri-4",
+      "type": "afirmasi",
+      "title": "Setiap Pelukanku",
+      "category": "identitas-diri",
+      "coverEmoji": "🌷",
+      "excerpt": "Setiap pelukanku, setiap sabarku, setiap usahaku… tidak ada yang sia-sia di hadapan Allah. Bahkan saat aku merasa gagal, Allah tetap mencatat niat baikku. Aku t…"
+    },
+    {
+      "id": "afirmasi:afirmasi-identitas-diri-5",
+      "slug": "afirmasi-identitas-diri-5",
+      "type": "afirmasi",
+      "title": "Aku Cukup",
+      "category": "identitas-diri",
+      "coverEmoji": "🌷",
+      "excerpt": "Aku cukup… bukan karena aku sempurna, tapi karena Allah izinkan aku untuk terus mencoba. Anakku tidak butuh ibu yang sempurna, dia butuh ibu yang hadir. Dan har…"
+    },
+    {
+      "id": "afirmasi:afirmasi-inner-healing-1",
+      "slug": "afirmasi-inner-healing-1",
+      "type": "afirmasi",
+      "title": "Aku Juga Manusia yang Pernah Terluka",
+      "category": "inner-healing",
+      "coverEmoji": "🌷",
+      "excerpt": "Aku juga manusia yang pernah terluka. Dan hari ini, aku sedang berusaha menyembuhkan diriku sambil tetap menjadi ibu. Itu tidak mudah, tapi aku sedang menjalani…"
+    },
+    {
+      "id": "afirmasi:afirmasi-inner-healing-2",
+      "slug": "afirmasi-inner-healing-2",
+      "type": "afirmasi",
+      "title": "Aku Memaafkan Diriku yang Dulu",
+      "category": "inner-healing",
+      "coverEmoji": "🌷",
+      "excerpt": "Aku memaafkan diriku yang dulu, yang mungkin belum tahu bagaimana caranya menjadi ibu yang baik. Karena hari ini aku sudah belajar, dan itu cukup."
+    },
+    {
+      "id": "afirmasi:afirmasi-inner-healing-3",
+      "slug": "afirmasi-inner-healing-3",
+      "type": "afirmasi",
+      "title": "Aku Tidak Tertinggal",
+      "category": "inner-healing",
+      "coverEmoji": "🌷",
+      "excerpt": "Aku tidak tertinggal, aku hanya punya waktu tumbuh yang berbeda. Setiap ibu punya jalannya masing-masing. Dan jalanku pun sedang Allah tuntun."
+    },
+    {
+      "id": "afirmasi:afirmasi-inner-healing-4",
+      "slug": "afirmasi-inner-healing-4",
+      "type": "afirmasi",
+      "title": "Aku Berhak Merasa Cukup",
+      "category": "inner-healing",
+      "coverEmoji": "🌷",
+      "excerpt": "Aku berhak merasa cukup, tanpa harus membandingkan diriku dengan orang lain. Karena perjalanan ini unik, dan Allah melihat usahaku secara utuh."
+    },
+    {
+      "id": "afirmasi:afirmasi-inner-healing-5",
+      "slug": "afirmasi-inner-healing-5",
+      "type": "afirmasi",
+      "title": "Aku Sedang Menjadi Versi Terbaik Diriku",
+      "category": "inner-healing",
+      "coverEmoji": "🌷",
+      "excerpt": "Aku sedang menjadi versi terbaik diriku, bukan versi tercepat. Perlahan tidak apa-apa, yang penting aku tidak berhenti. Dan hari ini, aku tetap melangkah."
+    },
+    {
+      "id": "afirmasi:afirmasi-lelah-2",
+      "slug": "afirmasi-lelah-2",
+      "type": "afirmasi",
+      "title": "Aku Boleh Berhenti Sejenak",
+      "category": "lelah",
+      "coverEmoji": "🌷",
+      "excerpt": "Aku boleh berhenti sejenak, menarik napas, dan menenangkan diri. Tapi aku tidak akan berhenti mencintai anakku. Karena cinta ini adalah amanah dari Allah."
+    },
+    {
+      "id": "afirmasi:afirmasi-lelah-3",
+      "slug": "afirmasi-lelah-3",
+      "type": "afirmasi",
+      "title": "Ini bukan Akhir dari Kemampuanku",
+      "category": "lelah",
+      "coverEmoji": "🌷",
+      "excerpt": "Ini bukan akhir dari kemampuanku, ini hanya fase yang sedang kulewati. Aku tidak gagal, aku hanya sedang belajar bertahan. Dan itu pun sudah luar biasa."
+    },
+    {
+      "id": "afirmasi:afirmasi-lelah-4",
+      "slug": "afirmasi-lelah-4",
+      "type": "afirmasi",
+      "title": "Hari Ini Terasa Berat",
+      "category": "lelah",
+      "coverEmoji": "🌷",
+      "excerpt": "Hari ini terasa berat, mungkin lebih berat dari kemarin. Tapi aku masih di sini, masih berusaha. Dan itu adalah bukti bahwa aku ibu yang kuat."
+    },
+    {
+      "id": "afirmasi:afirmasi-lelah-5",
+      "slug": "afirmasi-lelah-5",
+      "type": "afirmasi",
+      "title": "Allah Tidak Pernah Salah Memilih Pundak untuk",
+      "category": "lelah",
+      "coverEmoji": "🌷",
+      "excerpt": "Allah tidak pernah salah memilih pundak untuk memikul amanah ini. Jika aku diberi anak ini, berarti aku mampu menjalaninya. Aku hanya perlu kembali bersandar pa…"
+    },
+    {
+      "id": "afirmasi:afirmasi-saat-lelah-ingin-menyerah",
+      "slug": "afirmasi-saat-lelah-ingin-menyerah",
+      "type": "afirmasi",
+      "title": "Aku Boleh Berhenti Sejenak, Bukan Berhenti Mencintai",
+      "category": "lelah",
+      "coverEmoji": "🌷",
+      "excerpt": "Afirmasi untuk dibaca saat lelah mengasuh anak terasa berat dan ingin menyerah."
+    },
+    {
+      "id": "afirmasi:afirmasi-setelah-marah-ke-anak",
+      "slug": "afirmasi-setelah-marah-ke-anak",
+      "type": "afirmasi",
+      "title": "Aku Bisa Kembali Lembut Setelah Marah",
+      "category": "emosi",
+      "coverEmoji": "🌷",
+      "excerpt": "Afirmasi untuk memulihkan hati setelah tanpa sengaja marah kepada anak."
+    },
+    {
+      "id": "afirmasi:afirmasi-spiritual-2",
+      "slug": "afirmasi-spiritual-2",
+      "type": "afirmasi",
+      "title": "Aku Tidak Mendidik Sendirian",
+      "category": "spiritual",
+      "coverEmoji": "🌷",
+      "excerpt": "Aku tidak mendidik sendirian. Ada Allah yang menguatkanku, membimbingku, dan menjaga anakku. Aku hanya perlu terus kembali kepada-Nya."
+    },
+    {
+      "id": "afirmasi:afirmasi-spiritual-3",
+      "slug": "afirmasi-spiritual-3",
+      "type": "afirmasi",
+      "title": "Setiap Doa yang Kupanjatkan",
+      "category": "spiritual",
+      "coverEmoji": "🌷",
+      "excerpt": "Setiap doa yang kupanjatkan, meski pelan dan penuh air mata, tidak pernah sia-sia. Allah mendengarnya, menyimpannya, dan akan menjawabnya di waktu terbaik."
+    },
+    {
+      "id": "afirmasi:afirmasi-spiritual-4",
+      "slug": "afirmasi-spiritual-4",
+      "type": "afirmasi",
+      "title": "Aku Percaya",
+      "category": "spiritual",
+      "coverEmoji": "🌷",
+      "excerpt": "Aku percaya, Allah sedang menumbuhkan anakku dengan cara-Nya sendiri. Tugas ku hanya membersamai dengan sabar dan doa. Hasilnya, aku serahkan kepada-Nya."
+    },
+    {
+      "id": "afirmasi:afirmasi-spiritual-5",
+      "slug": "afirmasi-spiritual-5",
+      "type": "afirmasi",
+      "title": "Aku Memilih Tenang",
+      "category": "spiritual",
+      "coverEmoji": "🌷",
+      "excerpt": "Aku memilih tenang, karena aku tahu Allah yang mengatur segalanya. Bahkan hal-hal yang tidak kupahami hari ini, ada dalam rencana indah-Nya."
+    },
+    {
+      "id": "afirmasi:afirmasi-spiritual-menguatkan-hati",
+      "slug": "afirmasi-spiritual-menguatkan-hati",
+      "type": "afirmasi",
+      "title": "Aku Tidak Mendidik Sendirian",
+      "category": "spiritual",
+      "coverEmoji": "🌷",
+      "excerpt": "Afirmasi spiritual untuk mengingat bahwa Allah selalu menyertai dalam proses mengasuh anak."
+    },
+    {
+      "id": "artikel:doa-doa-menjelang-melahirkan",
+      "slug": "doa-doa-menjelang-melahirkan",
+      "type": "artikel",
+      "title": "Doa-Doa yang Dianjurkan Menjelang Melahirkan",
+      "category": "doa-dzikir",
+      "coverEmoji": "🤲",
+      "excerpt": "Kumpulan doa dan dzikir yang bisa Bunda amalkan menjelang persalinan untuk menenangkan hati dan memohon kelancaran."
+    },
+    {
+      "id": "artikel:dzikir-pagi-petang-ibu-hamil",
+      "slug": "dzikir-pagi-petang-ibu-hamil",
+      "type": "artikel",
+      "title": "Rutinitas Dzikir Pagi Petang untuk Ibu Hamil",
+      "category": "doa-dzikir",
+      "coverEmoji": "🌙",
+      "excerpt": "Menjaga rutinitas dzikir pagi dan petang bisa menjadi jangkar ketenangan hati sepanjang masa kehamilan."
+    },
+    {
+      "id": "artikel:gizi-seimbang-ibu-hamil",
+      "slug": "gizi-seimbang-ibu-hamil",
+      "type": "artikel",
+      "title": "Panduan Gizi Seimbang untuk Ibu Hamil",
+      "category": "kehamilan",
+      "coverEmoji": "🥗",
+      "excerpt": "Asupan gizi yang tepat mendukung tumbuh kembang janin dan kesehatan Bunda. Simak panduan praktisnya di sini."
+    },
+    {
+      "id": "artikel:membangun-kelekatan-newborn",
+      "slug": "membangun-kelekatan-newborn",
+      "type": "artikel",
+      "title": "Membangun Kelekatan dengan Si Kecil Sejak Dini",
+      "category": "parenting",
+      "coverEmoji": "👶",
+      "excerpt": "Bonding sejak hari-hari pertama membantu bayi merasa aman dan mendukung perkembangan emosinya di masa depan."
+    },
+    {
+      "id": "artikel:menata-hati-trimester-pertama",
+      "slug": "menata-hati-trimester-pertama",
+      "type": "artikel",
+      "title": "Menata Hati di Trimester Pertama",
+      "category": "kehamilan",
+      "coverEmoji": "🌱",
+      "excerpt": "Perubahan hormon dan rasa cemas di awal kehamilan itu wajar. Berikut cara menenangkan hati sambil menyambut kehidupan baru."
+    },
+    {
+      "id": "artikel:mengelola-cemas-jelang-persalinan",
+      "slug": "mengelola-cemas-jelang-persalinan",
+      "type": "artikel",
+      "title": "Mengelola Rasa Cemas Menjelang Persalinan",
+      "category": "kesehatan-mental",
+      "coverEmoji": "🕊️",
+      "excerpt": "Wajar merasa cemas mendekati hari persalinan. Kenali sumber cemas dan cara mengelolanya agar Bunda lebih siap."
+    },
+    {
+      "id": "artikel:mengenal-fase-baby-blues",
+      "slug": "mengenal-fase-baby-blues",
+      "type": "artikel",
+      "title": "Mengenal Fase Baby Blues dan Cara Menghadapinya",
+      "category": "kesehatan-mental",
+      "coverEmoji": "💛",
+      "excerpt": "Sedih tanpa sebab setelah melahirkan? Kenali baby blues, bedanya dengan depresi pascamelahirkan, dan cara menghadapinya."
+    },
+    {
+      "id": "artikel:menyiapkan-tas-persalinan",
+      "slug": "menyiapkan-tas-persalinan",
+      "type": "artikel",
+      "title": "Checklist Menyiapkan Tas Persalinan",
+      "category": "persalinan",
+      "coverEmoji": "🎒",
+      "excerpt": "Mulai siapkan tas persalinan sejak trimester ketiga agar Bunda dan keluarga tidak panik saat waktunya tiba."
+    },
+    {
+      "id": "artikel:mpasi-pertama-si-kecil",
+      "slug": "mpasi-pertama-si-kecil",
+      "type": "artikel",
+      "title": "Panduan MPASI Pertama untuk Si Kecil",
+      "category": "parenting",
+      "coverEmoji": "🥣",
+      "excerpt": "Memasuki usia 6 bulan, si kecil siap mengenal makanan pertamanya. Ini panduan dasar memulai MPASI dengan tenang."
+    },
+    {
+      "id": "artikel:tips-memperbanyak-asi",
+      "slug": "tips-memperbanyak-asi",
+      "type": "artikel",
+      "title": "8 Tips Alami Memperbanyak ASI",
+      "category": "menyusui",
+      "coverEmoji": "🤱",
+      "excerpt": "ASI terasa kurang lancar? Coba delapan cara alami ini untuk membantu meningkatkan produksi ASI secara bertahap."
+    },
+    {
+      "id": "doa:doa-anak-laki-laki-diberi-keberanian-yang-benar",
+      "slug": "doa-anak-laki-laki-diberi-keberanian-yang-benar",
+      "type": "doa",
+      "title": "Doa Agar Anak Laki-Laki Diberi Keberanian yang Benar",
+      "category": "anak-laki-laki",
+      "coverEmoji": "🤲",
+      "excerpt": "Ya Allah, tanamkan dalam diri anak laki-lakiku keberanian yang benar. Bukan keberanian yang menyakiti, tapi yang berdiri untuk kebaikan. Jadikan ia berani berka…"
+    },
+    {
+      "id": "doa:doa-anak-laki-laki-dijaga-dari-pergaulan-buruk",
+      "slug": "doa-anak-laki-laki-dijaga-dari-pergaulan-buruk",
+      "type": "doa",
+      "title": "Doa Agar Anak Laki-Laki Dijaga dari Pergaulan Buruk",
+      "category": "anak-laki-laki",
+      "coverEmoji": "🤲",
+      "excerpt": "Ya Allah, Engkau yang mengetahui siapa saja yang akan masuk dalam kehidupan anakku. Pilihkan ia teman-teman yang baik, yang menjaga langkahnya, dan yang menging…"
+    },
+    {
+      "id": "doa:doa-anak-laki-laki-dijaga-pandangannya",
+      "slug": "doa-anak-laki-laki-dijaga-pandangannya",
+      "type": "doa",
+      "title": "Doa Agar Anak Laki-Laki Dijaga Pandangannya",
+      "category": "anak-laki-laki",
+      "coverEmoji": "🤲",
+      "excerpt": "Ya Allah, Engkau yang mengetahui betapa banyak godaan yang dihadapi anak laki-laki di zaman ini. Jagalah pandangannya dari hal-hal yang tidak baik dan lindungi…"
+    },
+    {
+      "id": "doa:doa-anak-laki-laki-jadi-pemimpin",
+      "slug": "doa-anak-laki-laki-jadi-pemimpin",
+      "type": "doa",
+      "title": "Doa Agar Anak Laki-Laki Menjadi Pemimpin yang Baik",
+      "category": "anak-laki-laki",
+      "coverEmoji": "🤲",
+      "excerpt": "Doa memohon agar anak laki-laki tumbuh menjadi pemimpin yang bertakwa dan berjalan di jalan kebaikan."
+    },
+    {
+      "id": "doa:doa-anak-laki-laki-mampu-memegang-tanggung-jawab",
+      "slug": "doa-anak-laki-laki-mampu-memegang-tanggung-jawab",
+      "type": "doa",
+      "title": "Doa Agar Anak Laki-Laki Mampu Memegang Tanggung Jawab",
+      "category": "anak-laki-laki",
+      "coverEmoji": "🤲",
+      "excerpt": "Ya Allah, jadikan anak laki-lakiku tumbuh dengan rasa tanggung jawab yang kuat. Ajarkan ia untuk tidak lari dari kewajiban, untuk berani menghadapi tugas hidupn…"
+    },
+    {
+      "id": "doa:doa-anak-laki-laki-menjadi-laki-laki-shalih",
+      "slug": "doa-anak-laki-laki-menjadi-laki-laki-shalih",
+      "type": "doa",
+      "title": "Doa Agar Anak Laki-Laki Menjadi Laki-Laki Shalih",
+      "category": "anak-laki-laki",
+      "coverEmoji": "🤲",
+      "excerpt": "Ya Allah, jadikan anak laki-lakiku tumbuh menjadi laki-laki yang shalih. Laki-laki yang Engkau cintai, yang hidupnya Engkau berkahi, dan yang langkahnya selalu…"
+    },
+    {
+      "id": "doa:doa-anak-laki-laki-menjadi-pelindung-keluarga",
+      "slug": "doa-anak-laki-laki-menjadi-pelindung-keluarga",
+      "type": "doa",
+      "title": "Doa Agar Anak Laki-Laki Menjadi Pelindung Keluarga",
+      "category": "anak-laki-laki",
+      "coverEmoji": "🤲",
+      "excerpt": "Ya Allah, jadikan anak laki-lakiku kelak menjadi pelindung bagi keluarganya. Tanamkan dalam dirinya rasa tanggung jawab dan kepedulian terhadap orang-orang yang…"
+    },
+    {
+      "id": "doa:doa-anak-laki-laki-menjadi-penyejuk-hati",
+      "slug": "doa-anak-laki-laki-menjadi-penyejuk-hati",
+      "type": "doa",
+      "title": "Doa Agar Anak Laki-Laki Menjadi Penyejuk Hati",
+      "category": "anak-laki-laki",
+      "coverEmoji": "🤲",
+      "excerpt": "Ya Allah, jadikan anak laki-lakiku penyejuk hati dalam hidup kami. Jadikan kehadirannya membawa ketenangan, kebahagiaan, dan keberkahan. Bentuklah ia menjadi an…"
+    },
+    {
+      "id": "doa:doa-anak-laki-laki-rajin-ibadah",
+      "slug": "doa-anak-laki-laki-rajin-ibadah",
+      "type": "doa",
+      "title": "Doa Agar Anak Laki-Laki Rajin Ibadah",
+      "category": "anak-laki-laki",
+      "coverEmoji": "🤲",
+      "excerpt": "Ya Allah, tanamkan dalam hati anak laki-lakiku kecintaan terhadap ibadah. Jangan jadikan ia menjalankan kewajiban hanya karena dipaksa, tapi karena ia mencintai…"
+    },
+    {
+      "id": "doa:doa-anak-laki-laki-tidak-mudah-terpengaruh-teman",
+      "slug": "doa-anak-laki-laki-tidak-mudah-terpengaruh-teman",
+      "type": "doa",
+      "title": "Doa Agar Anak Laki-Laki Tidak Mudah Terpengaruh Teman",
+      "category": "anak-laki-laki",
+      "coverEmoji": "🤲",
+      "excerpt": "Ya Allah, di masa pertumbuhannya, anak laki-lakiku akan bertemu banyak orang dan berbagai pengaruh. Jagalah ia agar tidak mudah terbawa arus yang salah. Teguhka…"
+    },
+    {
+      "id": "doa:doa-anak-perempuan-diberi-cinta-yang-benar",
+      "slug": "doa-anak-perempuan-diberi-cinta-yang-benar",
+      "type": "doa",
+      "title": "Doa Agar Anak Perempuan Diberi Cinta yang Benar",
+      "category": "anak-perempuan",
+      "coverEmoji": "🤲",
+      "excerpt": "Ya Allah, Engkau yang menciptakan hati anak perempuanku dengan kebutuhan untuk mencintai dan dicintai. Arahkanlah cintanya kepada hal yang benar, kepada cinta y…"
+    },
+    {
+      "id": "doa:doa-anak-perempuan-dijaga-dari-cinta-yang-salah",
+      "slug": "doa-anak-perempuan-dijaga-dari-cinta-yang-salah",
+      "type": "doa",
+      "title": "Doa Agar Anak Perempuan Dijaga dari Cinta yang Salah",
+      "category": "anak-perempuan",
+      "coverEmoji": "🤲",
+      "excerpt": "Ya Allah, jagalah hati anak perempuanku dari hubungan yang tidak Engkau ridhoi. Jika suatu hari ia mulai mengenal cinta, arahkanlah ia pada cinta yang bersih da…"
+    },
+    {
+      "id": "doa:doa-anak-perempuan-dijaga-dari-rasa-insecure",
+      "slug": "doa-anak-perempuan-dijaga-dari-rasa-insecure",
+      "type": "doa",
+      "title": "Doa Agar Anak Perempuan Dijaga dari Rasa Insecure",
+      "category": "anak-perempuan",
+      "coverEmoji": "🤲",
+      "excerpt": "Ya Allah, di dunia yang sering membuat perempuan merasa kurang, jagalah hati anak perempuanku dari rasa tidak percaya diri. Ingatkan ia bahwa ia adalah ciptaan-…"
+    },
+    {
+      "id": "doa:doa-anak-perempuan-dijaga-dari-standar-dunia",
+      "slug": "doa-anak-perempuan-dijaga-dari-standar-dunia",
+      "type": "doa",
+      "title": "Doa Agar Anak Perempuan Dijaga dari Standar Dunia",
+      "category": "anak-perempuan",
+      "coverEmoji": "🤲",
+      "excerpt": "Ya Allah, di dunia yang sering menilai perempuan dari penampilan, pencapaian, dan validasi manusia, jagalah anak perempuanku dari standar yang melelahkan itu. A…"
+    },
+    {
+      "id": "doa:doa-anak-perempuan-dijaga-kehormatannya",
+      "slug": "doa-anak-perempuan-dijaga-kehormatannya",
+      "type": "doa",
+      "title": "Doa Agar Anak Perempuan Dijaga Kehormatannya",
+      "category": "anak-perempuan",
+      "coverEmoji": "🤲",
+      "excerpt": "Doa memohon penjagaan Allah atas kehormatan dan hati anak perempuan dari segala fitnah, tampak maupun tersembunyi."
+    },
+    {
+      "id": "doa:doa-anak-perempuan-dijaga-lisannya",
+      "slug": "doa-anak-perempuan-dijaga-lisannya",
+      "type": "doa",
+      "title": "Doa Agar Anak Perempuan Dijaga Lisannya",
+      "category": "anak-perempuan",
+      "coverEmoji": "🤲",
+      "excerpt": "Ya Allah, Engkau yang mengajarkan manusia berbicara. Jagalah lisan anak perempuanku dari kata-kata yang menyakiti, dari ucapan yang sia-sia, dan dari perkataan…"
+    },
+    {
+      "id": "doa:doa-anak-perempuan-dijauhkan-dari-pergaulan-buruk",
+      "slug": "doa-anak-perempuan-dijauhkan-dari-pergaulan-buruk",
+      "type": "doa",
+      "title": "Doa Agar Anak Perempuan Dijauhkan dari Pergaulan Buruk",
+      "category": "anak-perempuan",
+      "coverEmoji": "🤲",
+      "excerpt": "Ya Allah, Engkau yang mengetahui siapa saja yang akan masuk dalam kehidupan anak perempuanku. Pilihkan ia teman-teman yang baik, yang mengingatkannya pada-Mu, d…"
+    },
+    {
+      "id": "doa:doa-anak-perempuan-mencintai-menutup-aurat",
+      "slug": "doa-anak-perempuan-mencintai-menutup-aurat",
+      "type": "doa",
+      "title": "Doa Agar Anak Perempuan Mencintai Menutup Aurat",
+      "category": "anak-perempuan",
+      "coverEmoji": "🤲",
+      "excerpt": "Ya Allah, tanamkan dalam hati anak perempuanku kecintaan untuk menutup auratnya, bukan karena paksaan, tapi karena kesadaran dan cinta kepada-Mu. Jadikan hijabn…"
+    },
+    {
+      "id": "doa:doa-anak-perempuan-tidak-mudah-terpengaruh-lingkungan",
+      "slug": "doa-anak-perempuan-tidak-mudah-terpengaruh-lingkungan",
+      "type": "doa",
+      "title": "Doa Agar Anak Perempuan Tidak Mudah Terpengaruh Lingkungan",
+      "category": "anak-perempuan",
+      "coverEmoji": "🤲",
+      "excerpt": "Ya Allah, di dunia yang penuh pengaruh dan arus yang begitu kuat, jagalah anak perempuanku agar tidak mudah terbawa oleh lingkungan yang salah. Teguhkan hatinya…"
+    },
+    {
+      "id": "doa:doa-anak-perempuan-tumbuh-dengan-rasa-malu-yang-baik",
+      "slug": "doa-anak-perempuan-tumbuh-dengan-rasa-malu-yang-baik",
+      "type": "doa",
+      "title": "Doa Agar Anak Perempuan Tumbuh dengan Rasa Malu yang Baik",
+      "category": "anak-perempuan",
+      "coverEmoji": "🤲",
+      "excerpt": "Ya Allah, tanamkan dalam diri anak perempuanku rasa malu yang menjaga, bukan yang melemahkan. Jadikan rasa malunya sebagai pelindung dari hal-hal yang tidak bai…"
+    },
+    {
+      "id": "doa:doa-fitrah-berakhlak-baik",
+      "slug": "doa-fitrah-berakhlak-baik",
+      "type": "doa",
+      "title": "Doa Agar Anak Berakhlak Baik",
+      "category": "fitrah-akhlak",
+      "coverEmoji": "🤲",
+      "excerpt": "Akhlak yang baik adalah warisan terindah untuk anak."
+    },
+    {
+      "id": "doa:doa-fitrah-bersyukur",
+      "slug": "doa-fitrah-bersyukur",
+      "type": "doa",
+      "title": "Doa Agar Anak Bersyukur",
+      "category": "fitrah-akhlak",
+      "coverEmoji": "🤲",
+      "excerpt": "Hati yang lembut lebih mudah menerima kebaikan."
+    },
+    {
+      "id": "doa:doa-fitrah-diberi-cahaya",
+      "slug": "doa-fitrah-diberi-cahaya",
+      "type": "doa",
+      "title": "Doa Agar Anak Diberi Cahaya",
+      "category": "fitrah-akhlak",
+      "coverEmoji": "🤲",
+      "excerpt": "Karena cahaya iman akan menerangi jalan hidup anak."
+    },
+    {
+      "id": "doa:doa-fitrah-diberi-hati-yang-bersih-dan-tidak-menyimpang",
+      "slug": "doa-fitrah-diberi-hati-yang-bersih-dan-tidak-menyimpang",
+      "type": "doa",
+      "title": "Doa Agar Anak Diberi Hati yang Bersih & Tidak Menyimpang",
+      "category": "fitrah-akhlak",
+      "coverEmoji": "🤲",
+      "excerpt": "Karena yang akan menyelamatkan anak bukan prestasinya, tapi hatinya."
+    },
+    {
+      "id": "doa:doa-fitrah-diberi-hati-yang-lembut",
+      "slug": "doa-fitrah-diberi-hati-yang-lembut",
+      "type": "doa",
+      "title": "Doa Agar Anak Diberi Hati yang Lembut",
+      "category": "fitrah-akhlak",
+      "coverEmoji": "🤲",
+      "excerpt": "Hati yang bersih membuat hidup anak lebih ringan."
+    },
+    {
+      "id": "doa:doa-fitrah-diberi-keberkahan-hidup",
+      "slug": "doa-fitrah-diberi-keberkahan-hidup",
+      "type": "doa",
+      "title": "Doa Agar Anak Diberi Keberkahan Hidup",
+      "category": "fitrah-akhlak",
+      "coverEmoji": "🤲",
+      "excerpt": "Keberkahan membuat langkah kecil terasa bermakna."
+    },
+    {
+      "id": "doa:doa-fitrah-diberi-kesabaran-dan-keteguhan",
+      "slug": "doa-fitrah-diberi-kesabaran-dan-keteguhan",
+      "type": "doa",
+      "title": "Doa Agar Anak Diberi Kesabaran & Keteguhan",
+      "category": "fitrah-akhlak",
+      "coverEmoji": "🤲",
+      "excerpt": "Karena anak yang sabar akan lebih kuat dari tekanan dunia."
+    },
+    {
+      "id": "doa:doa-fitrah-dijadikan-hamba-yang-dicintai-allah",
+      "slug": "doa-fitrah-dijadikan-hamba-yang-dicintai-allah",
+      "type": "doa",
+      "title": "Doa Agar Anak Dijadikan Hamba yang Dicintai Allah",
+      "category": "fitrah-akhlak",
+      "coverEmoji": "🤲",
+      "excerpt": "Karena anak yang mencintai Allah akan mudah mencintai kebaikan."
+    },
+    {
+      "id": "doa:doa-fitrah-dijauhkan-dari-fitnah-zaman",
+      "slug": "doa-fitrah-dijauhkan-dari-fitnah-zaman",
+      "type": "doa",
+      "title": "Doa Agar Anak Dijauhkan dari Fitnah Zaman",
+      "category": "fitrah-akhlak",
+      "coverEmoji": "🤲",
+      "excerpt": "Karena kita ingin anak kuat, tapi tidak terbebani di luar kemampuannya."
+    },
+    {
+      "id": "doa:doa-fitrah-dijauhkan-dari-kemusyrikan",
+      "slug": "doa-fitrah-dijauhkan-dari-kemusyrikan",
+      "type": "doa",
+      "title": "Doa Agar Anak Dijauhkan dari Kemusyrikan",
+      "category": "fitrah-akhlak",
+      "coverEmoji": "🤲",
+      "excerpt": "Menjaga tauhid anak lebih penting daripada menjaga citranya."
+    },
+    {
+      "id": "doa:doa-fitrah-dijauhkan-dari-kesombongan",
+      "slug": "doa-fitrah-dijauhkan-dari-kesombongan",
+      "type": "doa",
+      "title": "Doa Agar Anak Dijauhkan dari Kesombongan",
+      "category": "fitrah-akhlak",
+      "coverEmoji": "🤲",
+      "excerpt": "Karena kerendahan hati membuat ilmu anak bercahaya."
+    },
+    {
+      "id": "doa:doa-fitrah-dilindungi-dari-keburukan",
+      "slug": "doa-fitrah-dilindungi-dari-keburukan",
+      "type": "doa",
+      "title": "Doa Agar Anak Dilindungi dari Keburukan",
+      "category": "fitrah-akhlak",
+      "coverEmoji": "🤲",
+      "excerpt": "Perlindungan terbaik bukan dari CCTV, pagar, atau penjaga.. tapi dari doa orangtua."
+    },
+    {
+      "id": "doa:doa-fitrah-diteguhkan-di-atas-agama",
+      "slug": "doa-fitrah-diteguhkan-di-atas-agama",
+      "type": "doa",
+      "title": "Doa Agar Anak Diteguhkan di Atas Agama",
+      "category": "fitrah-akhlak",
+      "coverEmoji": "🤲",
+      "excerpt": "Karena hati anak ada dalam genggaman Allah dan gampang berbolak-balik."
+    },
+    {
+      "id": "doa:doa-fitrah-doa-memohon-rahmat-dan-petunjuk-untuk-keluarga",
+      "slug": "doa-fitrah-doa-memohon-rahmat-dan-petunjuk-untuk-keluarga",
+      "type": "doa",
+      "title": "Doa Memohon Rahmat dan Petunjuk untuk Keluarga",
+      "category": "fitrah-akhlak",
+      "coverEmoji": "🤲",
+      "excerpt": "Setiap fase anak, kita butuh petunjuk yang Allah siapkan."
+    },
+    {
+      "id": "doa:doa-fitrah-menjadi-pemimpin-dalam-kebaikan",
+      "slug": "doa-fitrah-menjadi-pemimpin-dalam-kebaikan",
+      "type": "doa",
+      "title": "Doa Agar Anak Menjadi Pemimpin dalam Kebaikan",
+      "category": "fitrah-akhlak",
+      "coverEmoji": "🤲",
+      "excerpt": "Pastikan impian terbesar kita bukanlah anak menjadi terkenal, tapi anak yang menuntun dalam kebaikan."
+    },
+    {
+      "id": "doa:doa-fitrah-menjadi-penyejuk-mata",
+      "slug": "doa-fitrah-menjadi-penyejuk-mata",
+      "type": "doa",
+      "title": "Doa Agar Anak Menjadi Penyejuk Mata",
+      "category": "fitrah-akhlak",
+      "coverEmoji": "🤲",
+      "excerpt": "Penyejuk mata bukan anak yang sempurna, tapi anak yang Allah jaga hatinya."
+    },
+    {
+      "id": "doa:doa-fitrah-rajin-sholat",
+      "slug": "doa-fitrah-rajin-sholat",
+      "type": "doa",
+      "title": "Doa Agar Anak Rajin Sholat",
+      "category": "fitrah-akhlak",
+      "coverEmoji": "🤲",
+      "excerpt": "Sholat bukan sekadar kebiasaan, tapi pondasi hidup anak."
+    },
+    {
+      "id": "doa:doa-fitrah-selamat-dunia-akhirat",
+      "slug": "doa-fitrah-selamat-dunia-akhirat",
+      "type": "doa",
+      "title": "Doa Agar Anak Selamat Dunia Akhirat",
+      "category": "fitrah-akhlak",
+      "coverEmoji": "🤲",
+      "excerpt": "Karena kebahagiaan sejati anak adalah yang utuh dunia dan akhiratnya."
+    },
+    {
+      "id": "doa:doa-fitrah-termasuk-orang-bertakwa",
+      "slug": "doa-fitrah-termasuk-orang-bertakwa",
+      "type": "doa",
+      "title": "Doa Agar Anak Termasuk Orang Bertakwa",
+      "category": "fitrah-akhlak",
+      "coverEmoji": "🤲",
+      "excerpt": "Anak yang berserah pada Allah, insyaAllah akan lebih kuat menghadapi dunia."
+    },
+    {
+      "id": "doa:doa-fitrah-wafat-dalam-keadaan-baik",
+      "slug": "doa-fitrah-wafat-dalam-keadaan-baik",
+      "type": "doa",
+      "title": "Doa Agar Anak Wafat dalam Keadaan Baik",
+      "category": "fitrah-akhlak",
+      "coverEmoji": "🤲",
+      "excerpt": "Tujuan akhir pengasuhan adalah anak yang kembali kepada Allah dalam keadaan baik."
+    },
+    {
+      "id": "doa:doa-orangtua-akhlak-yang-baik",
+      "slug": "doa-orangtua-akhlak-yang-baik",
+      "type": "doa",
+      "title": "Doa Memohon Akhlak yang Baik",
+      "category": "orangtua",
+      "coverEmoji": "🤲",
+      "excerpt": "Karena kelembutan bukan bawaan lahir, tapi akhlak yang Allah anugerahkan pada yang memintanya."
+    },
+    {
+      "id": "doa:doa-orangtua-ampunan-atas-kesalahan",
+      "slug": "doa-orangtua-ampunan-atas-kesalahan",
+      "type": "doa",
+      "title": "Doa Memohon Ampunan atas Kesalahan",
+      "category": "orangtua",
+      "coverEmoji": "🤲",
+      "excerpt": "Orangtua yang berani mengakui salah adalah orangtua yang sedang belajar menjadi lebih baik."
+    },
+    {
+      "id": "doa:doa-orangtua-ampunan-saat-merasa-banyak-khilaf",
+      "slug": "doa-orangtua-ampunan-saat-merasa-banyak-khilaf",
+      "type": "doa",
+      "title": "Doa Memohon Ampunan (Saat Merasa Banyak Khilaf)",
+      "category": "orangtua",
+      "coverEmoji": "🤲",
+      "excerpt": "Terkadang yang paling kita takutkan bukan anak yang berubah, tapi hati kita yang perlahan menjauh dari petunjuk."
+    },
+    {
+      "id": "doa:doa-orangtua-berlindung-dari-keburukan-diri-termasuk-amarah",
+      "slug": "doa-orangtua-berlindung-dari-keburukan-diri-termasuk-amarah",
+      "type": "doa",
+      "title": "Doa Berlindung dari Keburukan Diri (Termasuk Amarah)",
+      "category": "orangtua",
+      "coverEmoji": "🤲",
+      "excerpt": "Yang paling sulit bukan menahan marah, tapi tetap benar saat marah."
+    },
+    {
+      "id": "doa:doa-orangtua-diberi-kesabaran",
+      "slug": "doa-orangtua-diberi-kesabaran",
+      "type": "doa",
+      "title": "Doa Agar Diberi Kesabaran",
+      "category": "orangtua",
+      "coverEmoji": "🤲",
+      "excerpt": "Doa singkat yang cocok dibaca berulang-ulang saat emosi mulai naik menghadapi anak."
+    },
+    {
+      "id": "doa:doa-orangtua-hati-lapang-dan-tidak-mudah-marah",
+      "slug": "doa-orangtua-hati-lapang-dan-tidak-mudah-marah",
+      "type": "doa",
+      "title": "Doa Agar Hati Lapang & Tidak Mudah Marah",
+      "category": "orangtua",
+      "coverEmoji": "🤲",
+      "excerpt": "Ini doa Nabi Musa, sangat cocok untuk orangtua yang ingin bicara dengan lembut."
+    },
+    {
+      "id": "doa:doa-orangtua-hati-yang-bersih-dari-dengki",
+      "slug": "doa-orangtua-hati-yang-bersih-dari-dengki",
+      "type": "doa",
+      "title": "Doa Memohon Hati yang Bersih dari Dengki",
+      "category": "orangtua",
+      "coverEmoji": "🤲",
+      "excerpt": "Hati yang bersih lebih tenang daripada hati yang selalu membandingkan."
+    },
+    {
+      "id": "doa:doa-orangtua-hati-yang-teguh-di-atas-kebenaran",
+      "slug": "doa-orangtua-hati-yang-teguh-di-atas-kebenaran",
+      "type": "doa",
+      "title": "Doa Memohon Hati yang Teguh di Atas Kebenaran",
+      "category": "orangtua",
+      "coverEmoji": "🤲",
+      "excerpt": "Hati orangtua yang teguh akan menjadi tempat berlindung yang aman bagi anak."
+    },
+    {
+      "id": "doa:doa-orangtua-husnul-khatimah",
+      "slug": "doa-orangtua-husnul-khatimah",
+      "type": "doa",
+      "title": "Doa Memohon Husnul Khatimah",
+      "category": "orangtua",
+      "coverEmoji": "🤲",
+      "excerpt": "Tujuan akhir pengasuhan bukan hanya anak yang baik, tapi akhir hidup yang baik."
+    },
+    {
+      "id": "doa:doa-orangtua-jiwa-yang-bertakwa",
+      "slug": "doa-orangtua-jiwa-yang-bertakwa",
+      "type": "doa",
+      "title": "Doa Memohon Jiwa yang Bertakwa",
+      "category": "orangtua",
+      "coverEmoji": "🤲",
+      "excerpt": "Anak lebih mudah meniru ketakwaan daripada nasihat panjang."
+    },
+    {
+      "id": "doa:doa-orangtua-kebaikan-dunia-dan-akhirat",
+      "slug": "doa-orangtua-kebaikan-dunia-dan-akhirat",
+      "type": "doa",
+      "title": "Doa Kebaikan Dunia & Akhirat",
+      "category": "orangtua",
+      "coverEmoji": "🤲",
+      "excerpt": "Sebagai orangtua tentu kita tidak hanya ingin anak sukses di dunia, tapi selamat sampai akhirat."
+    },
+    {
+      "id": "doa:doa-orangtua-kekuatan-hati",
+      "slug": "doa-orangtua-kekuatan-hati",
+      "type": "doa",
+      "title": "Doa Memohon Kekuatan Hati",
+      "category": "orangtua",
+      "coverEmoji": "🤲",
+      "excerpt": "Karena istiqomah lebih sulit daripada memulai."
+    },
+    {
+      "id": "doa:doa-orangtua-ketenangan-dalam-keputusan",
+      "slug": "doa-orangtua-ketenangan-dalam-keputusan",
+      "type": "doa",
+      "title": "Doa Memohon Ketenangan dalam Keputusan",
+      "category": "orangtua",
+      "coverEmoji": "🤲",
+      "excerpt": "Pilihan terbaik adalah yang Allah pilihkan."
+    },
+    {
+      "id": "doa:doa-orangtua-menguatkan-tawakal",
+      "slug": "doa-orangtua-menguatkan-tawakal",
+      "type": "doa",
+      "title": "Doa Menguatkan Tawakal",
+      "category": "orangtua",
+      "coverEmoji": "🤲",
+      "excerpt": "Doa ini ringan di lisan, tapi berat di makna. Ini kalimat berserah yang dalam."
+    },
+    {
+      "id": "doa:doa-orangtua-perlindungan-dari-gelisah-dan-sedih",
+      "slug": "doa-orangtua-perlindungan-dari-gelisah-dan-sedih",
+      "type": "doa",
+      "title": "Doa Perlindungan dari Gelisah & Sedih",
+      "category": "orangtua",
+      "coverEmoji": "🤲",
+      "excerpt": "Tidak semua beban harus dipikul sendiri, ada Allah tempat kita berlindung."
+    },
+    {
+      "id": "doa:doa-orangtua-perlindungan-dari-hati-yang-keras",
+      "slug": "doa-orangtua-perlindungan-dari-hati-yang-keras",
+      "type": "doa",
+      "title": "Doa Memohon Perlindungan dari Hati yang Keras",
+      "category": "orangtua",
+      "coverEmoji": "🤲",
+      "excerpt": "Hati yang keras sulit memancarkan kelembutan pada anak."
+    },
+    {
+      "id": "doa:doa-orangtua-petunjuk-dalam-urusan",
+      "slug": "doa-orangtua-petunjuk-dalam-urusan",
+      "type": "doa",
+      "title": "Doa Memohon Petunjuk dalam Urusan",
+      "category": "orangtua",
+      "coverEmoji": "🤲",
+      "excerpt": "Karena keputusan terbaik lahir dari hati yang Allah beri petunjuk."
+    },
+    {
+      "id": "doa:doa-orangtua-rezeki-yang-halal-dan-baik",
+      "slug": "doa-orangtua-rezeki-yang-halal-dan-baik",
+      "type": "doa",
+      "title": "Doa Memohon Rezeki yang Halal & Baik",
+      "category": "orangtua",
+      "coverEmoji": "🤲",
+      "excerpt": "Rezeki yang berkah lebih menenangkan daripada yang banyak."
+    },
+    {
+      "id": "doa:doa-orangtua-saat-lelah-dan-hampir-menyerah",
+      "slug": "doa-orangtua-saat-lelah-dan-hampir-menyerah",
+      "type": "doa",
+      "title": "Doa Saat Lelah & Hampir Menyerah",
+      "category": "orangtua",
+      "coverEmoji": "🤲",
+      "excerpt": "Ini doa yang Allah sendiri janjikan pengabulannya."
+    },
+    {
+      "id": "doa:doa-orangtua-tidak-zalim-pada-anak",
+      "slug": "doa-orangtua-tidak-zalim-pada-anak",
+      "type": "doa",
+      "title": "Doa Agar Tidak Zalim pada Anak",
+      "category": "orangtua",
+      "coverEmoji": "🤲",
+      "excerpt": "Kadang masalahnya bukan anak. Tapi hati kita yang sedang lelah."
+    },
+    {
+      "id": "doa:doa-tantangan-allah-beri-hidayah-pada-anak",
+      "slug": "doa-tantangan-allah-beri-hidayah-pada-anak",
+      "type": "doa",
+      "title": "Doa Agar Allah Beri Hidayah pada Anak",
+      "category": "tantangan-dunia",
+      "coverEmoji": "🤲",
+      "excerpt": "Karena hidayah bukan hasil paksaan, tapi anugerah dari Allah."
+    },
+    {
+      "id": "doa:doa-tantangan-allah-lapangkan-dada-anak",
+      "slug": "doa-tantangan-allah-lapangkan-dada-anak",
+      "type": "doa",
+      "title": "Doa Agar Allah Lapangkan Dada Anak",
+      "category": "tantangan-dunia",
+      "coverEmoji": "🤲",
+      "excerpt": "Karena hati yang lapang membuat beban terasa lebih ringan."
+    },
+    {
+      "id": "doa:doa-tantangan-allah-pilihkan-teman-yang-bertakwa-untuk-anak",
+      "slug": "doa-tantangan-allah-pilihkan-teman-yang-bertakwa-untuk-anak",
+      "type": "doa",
+      "title": "Doa Agar Allah Pilihkan Teman yang Bertakwa untuk Anak",
+      "category": "tantangan-dunia",
+      "coverEmoji": "🤲",
+      "excerpt": "Karena pertemanan yang benar bisa menyelamatkan masa depan anak."
+    },
+    {
+      "id": "doa:doa-tantangan-bertengkar-dengan-teman",
+      "slug": "doa-tantangan-bertengkar-dengan-teman",
+      "type": "doa",
+      "title": "Doa Saat Anak Bertengkar dengan Teman",
+      "category": "tantangan-dunia",
+      "coverEmoji": "🤲",
+      "excerpt": "Ya Allah, Engkau yang menciptakan manusia untuk saling mengenal dan hidup bersama. Jika hari ini anakku bertengkar dengan temannya, perbaikilah hubungan di anta…"
+    },
+    {
+      "id": "doa:doa-tantangan-cemburu-pada-saudaranya",
+      "slug": "doa-tantangan-cemburu-pada-saudaranya",
+      "type": "doa",
+      "title": "Doa Saat Anak Cemburu pada Saudaranya",
+      "category": "tantangan-dunia",
+      "coverEmoji": "🤲",
+      "excerpt": "Ya Allah, Engkau yang menciptakan hati manusia dengan berbagai perasaan. Jika hari ini anakku merasa cemburu pada saudaranya, bersihkanlah hatinya dari rasa iri…"
+    },
+    {
+      "id": "doa:doa-tantangan-diberi-ketenangan-jiwa",
+      "slug": "doa-tantangan-diberi-ketenangan-jiwa",
+      "type": "doa",
+      "title": "Doa Agar Anak Diberi Ketenangan Jiwa",
+      "category": "tantangan-dunia",
+      "coverEmoji": "🤲",
+      "excerpt": "Karena ketenangan adalah kekuatan yang tidak terlihat tapi sangat menentukan."
+    },
+    {
+      "id": "doa:doa-tantangan-dijauhkan-dari-fitnah-dunia",
+      "slug": "doa-tantangan-dijauhkan-dari-fitnah-dunia",
+      "type": "doa",
+      "title": "Doa Agar Anak Dijauhkan dari Fitnah Dunia",
+      "category": "tantangan-dunia",
+      "coverEmoji": "🤲",
+      "excerpt": "Karena dunia yang memikat bisa perlahan menjauhkan hati dari Allah."
+    },
+    {
+      "id": "doa:doa-tantangan-dijauhkan-dari-fitnah-zaman",
+      "slug": "doa-tantangan-dijauhkan-dari-fitnah-zaman",
+      "type": "doa",
+      "title": "Doa Agar Dijauhkan dari Fitnah Zaman",
+      "category": "tantangan-dunia",
+      "coverEmoji": "🤲",
+      "excerpt": "Karena kita ingin anak kuat, tapi tidak sampai patah."
+    },
+    {
+      "id": "doa:doa-tantangan-dunia-tidak-melalaikan-hatinya",
+      "slug": "doa-tantangan-dunia-tidak-melalaikan-hatinya",
+      "type": "doa",
+      "title": "Doa Agar Dunia Tidak Melalaikan Hatinya",
+      "category": "tantangan-dunia",
+      "coverEmoji": "🤲",
+      "excerpt": "Dunia boleh di tangan anak, tapi jangan sampai menguasai hatinya."
+    },
+    {
+      "id": "doa:doa-tantangan-kecanduan-gadget",
+      "slug": "doa-tantangan-kecanduan-gadget",
+      "type": "doa",
+      "title": "Doa Saat Anak Kecanduan Gadget",
+      "category": "tantangan-dunia",
+      "coverEmoji": "🤲",
+      "excerpt": "Ya Allah, di zaman yang penuh layar dan distraksi ini, jagalah hati anakku agar tidak tenggelam dalam hal yang melalaikan. Jika hari ini ia terlalu terpikat ole…"
+    },
+    {
+      "id": "doa:doa-tantangan-kehilangan-semangat",
+      "slug": "doa-tantangan-kehilangan-semangat",
+      "type": "doa",
+      "title": "Doa Saat Anak Kehilangan Semangat",
+      "category": "tantangan-dunia",
+      "coverEmoji": "🤲",
+      "excerpt": "Ya Allah, Engkau yang menumbuhkan harapan di dalam hati manusia. Jika hari ini anakku kehilangan semangat atau merasa lelah menghadapi sesuatu, bangkitkan kemba…"
+    },
+    {
+      "id": "doa:doa-tantangan-malas-belajar",
+      "slug": "doa-tantangan-malas-belajar",
+      "type": "doa",
+      "title": "Doa Saat Anak Malas Belajar",
+      "category": "tantangan-dunia",
+      "coverEmoji": "🤲",
+      "excerpt": "Ya Allah, Engkau yang membuka pintu ilmu bagi siapa pun yang Engkau kehendaki. Jika hari ini anakku terlihat malas belajar atau kehilangan semangatnya, bangkitk…"
+    },
+    {
+      "id": "doa:doa-tantangan-memukul-atau-berkelahi-dengan-teman",
+      "slug": "doa-tantangan-memukul-atau-berkelahi-dengan-teman",
+      "type": "doa",
+      "title": "Doa Saat Anak Memukul atau Berkelahi dengan Teman",
+      "category": "tantangan-dunia",
+      "coverEmoji": "🤲",
+      "excerpt": "Ya Allah, Engkau yang menciptakan hati manusia untuk saling mengenal dan saling menyayangi. Jika hari ini anakku memukul temannya atau berkelahi, ajarkan ia kel…"
+    },
+    {
+      "id": "doa:doa-tantangan-menangis-lama",
+      "slug": "doa-tantangan-menangis-lama",
+      "type": "doa",
+      "title": "Doa Saat Anak Menangis Lama",
+      "category": "tantangan-dunia",
+      "coverEmoji": "🤲",
+      "excerpt": "Ya Allah, Engkau yang memahami isi hati setiap manusia, bahkan hati kecil yang belum mampu mengungkapkan perasaannya. Jika anakku menangis lama hari ini, tenang…"
+    },
+    {
+      "id": "doa:doa-tantangan-mudah-marah",
+      "slug": "doa-tantangan-mudah-marah",
+      "type": "doa",
+      "title": "Doa Saat Anak Mudah Marah",
+      "category": "tantangan-dunia",
+      "coverEmoji": "🤲",
+      "excerpt": "Ya Allah, Engkau yang mampu menenangkan hati yang paling gelisah sekalipun. Jika anakku mudah marah hari ini, bersihkanlah hatinya dari emosi yang berlebihan. A…"
+    },
+    {
+      "id": "doa:doa-tantangan-sedang-sakit",
+      "slug": "doa-tantangan-sedang-sakit",
+      "type": "doa",
+      "title": "Doa Saat Anak Sedang Sakit",
+      "category": "tantangan-dunia",
+      "coverEmoji": "🤲",
+      "excerpt": "Ya Allah, Engkau adalah penyembuh bagi setiap penyakit. Jika anakku sedang sakit, angkatlah sakitnya dan kembalikan kesehatannya. Jadikan sakit ini penghapus do…"
+    },
+    {
+      "id": "doa:doa-tantangan-sering-membantah",
+      "slug": "doa-tantangan-sering-membantah",
+      "type": "doa",
+      "title": "Doa Saat Anak Sering Membantah",
+      "category": "tantangan-dunia",
+      "coverEmoji": "🤲",
+      "excerpt": "Ya Allah, Engkau yang mampu melembutkan hati manusia. Jika hari ini anakku sering membantah atau menolak nasihatku, lembutkanlah hatinya dan bukakan pemahamanny…"
+    },
+    {
+      "id": "doa:doa-tantangan-sering-mengeluh",
+      "slug": "doa-tantangan-sering-mengeluh",
+      "type": "doa",
+      "title": "Doa Saat Anak Sering Mengeluh",
+      "category": "tantangan-dunia",
+      "coverEmoji": "🤲",
+      "excerpt": "Ya Allah, Engkau yang melimpahkan begitu banyak nikmat dalam kehidupan kami. Jika hari ini anakku sering mengeluh dan merasa tidak puas dengan apa yang ia milik…"
+    },
+    {
+      "id": "doa:doa-tantangan-sulit-berpisah-dengan-orangtua",
+      "slug": "doa-tantangan-sulit-berpisah-dengan-orangtua",
+      "type": "doa",
+      "title": "Doa Saat Anak Sulit Berpisah dengan Orangtua",
+      "category": "tantangan-dunia",
+      "coverEmoji": "🤲",
+      "excerpt": "Ya Allah, Engkau yang selalu menjaga hamba-hamba-Mu di mana pun mereka berada. Jika hari ini anakku sulit berpisah dariku, merasa takut atau gelisah saat aku ti…"
+    },
+    {
+      "id": "doa:doa-tantangan-sulit-makan",
+      "slug": "doa-tantangan-sulit-makan",
+      "type": "doa",
+      "title": "Doa Saat Anak Sulit Makan",
+      "category": "tantangan-dunia",
+      "coverEmoji": "🤲",
+      "excerpt": "Ya Allah, Engkau yang menumbuhkan setiap tubuh kecil dengan rezeki dari-Mu. Jika hari ini anakku sulit makan, lembutkanlah hatinya dan mudahkanlah ia menerima m…"
+    },
+    {
+      "id": "doa:doa-tantangan-sulit-tidur",
+      "slug": "doa-tantangan-sulit-tidur",
+      "type": "doa",
+      "title": "Doa Saat Anak Sulit Tidur",
+      "category": "tantangan-dunia",
+      "coverEmoji": "🤲",
+      "excerpt": "Ya Allah, Engkau yang menenangkan malam dan menidurkan seluruh makhluk-Mu. Jika anakku sulit tidur malam ini, tenangkanlah pikirannya dan lembutkan hatinya. Jad…"
+    },
+    {
+      "id": "doa:doa-tantangan-susah-bangun-pagi",
+      "slug": "doa-tantangan-susah-bangun-pagi",
+      "type": "doa",
+      "title": "Doa Saat Anak Susah Bangun Pagi",
+      "category": "tantangan-dunia",
+      "coverEmoji": "🤲",
+      "excerpt": "Ya Allah, Engkau yang menghidupkan pagi dengan cahaya dan harapan baru. Jika hari ini anakku sulit bangun pagi, berilah ia tubuh yang segar dan hati yang bersem…"
+    },
+    {
+      "id": "doa:doa-tantangan-takut-atau-cemas",
+      "slug": "doa-tantangan-takut-atau-cemas",
+      "type": "doa",
+      "title": "Doa Saat Anak Takut atau Cemas",
+      "category": "tantangan-dunia",
+      "coverEmoji": "🤲",
+      "excerpt": "Ya Allah, Engkau yang memberikan rasa aman kepada setiap hati yang bersandar kepada-Mu. Jika anakku merasa takut atau cemas, tenangkanlah hatinya. Ajarkan ia un…"
+    },
+    {
+      "id": "doa:doa-tantangan-takut-sekolah",
+      "slug": "doa-tantangan-takut-sekolah",
+      "type": "doa",
+      "title": "Doa Saat Anak Takut Sekolah",
+      "category": "tantangan-dunia",
+      "coverEmoji": "🤲",
+      "excerpt": "Ya Allah, Engkau yang mengetahui setiap rasa takut yang tersembunyi di dalam hati anak kecil. Jika hari ini anakku merasa takut pergi ke sekolah, takut menghada…"
+    },
+    {
+      "id": "doa:doa-tantangan-tantrum",
+      "slug": "doa-tantangan-tantrum",
+      "type": "doa",
+      "title": "Doa Saat Anak Tantrum",
+      "category": "tantangan-dunia",
+      "coverEmoji": "🤲",
+      "excerpt": "Ya Allah, Engkau yang mengetahui isi hati setiap manusia, bahkan hati anak kecil yang belum mampu menjelaskan apa yang ia rasakan. Jika hari ini anakku marah da…"
+    },
+    {
+      "id": "doa:doa-tantangan-terlalu-aktif-dan-sulit-tenang",
+      "slug": "doa-tantangan-terlalu-aktif-dan-sulit-tenang",
+      "type": "doa",
+      "title": "Doa Saat Anak Terlalu Aktif dan Sulit Tenang",
+      "category": "tantangan-dunia",
+      "coverEmoji": "🤲",
+      "excerpt": "Ya Allah, Engkau yang menciptakan setiap anak dengan keunikan dan energinya masing-masing. Jika hari ini anakku sangat aktif hingga sulit menenangkan dirinya, t…"
+    },
+    {
+      "id": "doa:doa-tantangan-terlalu-pemalu",
+      "slug": "doa-tantangan-terlalu-pemalu",
+      "type": "doa",
+      "title": "Doa Saat Anak Terlalu Pemalu",
+      "category": "tantangan-dunia",
+      "coverEmoji": "🤲",
+      "excerpt": "Ya Allah, Engkau yang menumbuhkan potensi dalam setiap anak yang Engkau ciptakan. Jika anakku terlalu pemalu dan sulit mengekspresikan dirinya, kuatkanlah hatin…"
+    },
+    {
+      "id": "doa:doa-tantangan-tidak-mau-berbagi",
+      "slug": "doa-tantangan-tidak-mau-berbagi",
+      "type": "doa",
+      "title": "Doa Saat Anak Tidak Mau Berbagi",
+      "category": "tantangan-dunia",
+      "coverEmoji": "🤲",
+      "excerpt": "Ya Allah, Engkau yang menanamkan kasih sayang di dalam hati manusia. Jika hari ini anakku belum mau berbagi dengan temannya, lembutkanlah hatinya dan ajarkan ia…"
+    },
+    {
+      "id": "doa:doa-tantangan-tidak-mau-mendengar-nasihat",
+      "slug": "doa-tantangan-tidak-mau-mendengar-nasihat",
+      "type": "doa",
+      "title": "Doa Saat Anak Tidak Mau Mendengar Nasihat",
+      "category": "tantangan-dunia",
+      "coverEmoji": "🤲",
+      "excerpt": "Ya Allah, Engkau yang mampu membuka hati manusia yang paling keras sekalipun. Jika hari ini anakku sulit menerima nasihat dan tampak menolak arahan yang kami be…"
+    },
+    {
+      "id": "doa:doa-tantangan-tidak-percaya-diri",
+      "slug": "doa-tantangan-tidak-percaya-diri",
+      "type": "doa",
+      "title": "Doa Saat Anak Tidak Percaya Diri",
+      "category": "tantangan-dunia",
+      "coverEmoji": "🤲",
+      "excerpt": "Ya Allah, Engkau yang menciptakan setiap anak dengan potensi dan kelebihan yang berbeda. Jika hari ini anakku merasa tidak percaya diri, kuatkanlah hatinya. Tun…"
+    },
+    {
+      "id": "dzikir:dzikir-menenangkan-hati-saat-cemas",
+      "slug": "dzikir-menenangkan-hati-saat-cemas",
+      "type": "dzikir",
+      "title": "Dzikir Menenangkan Hati Saat Cemas",
+      "category": "ketenangan-hati",
+      "coverEmoji": "🤍",
+      "excerpt": "Kalimat tasbih dan istighfar untuk dibaca berulang saat hati terasa gelisah atau cemas."
+    },
+    {
+      "id": "dzikir:dzikir-pagi-ringkas",
+      "slug": "dzikir-pagi-ringkas",
+      "type": "dzikir",
+      "title": "Dzikir Pagi Ringkas",
+      "category": "harian",
+      "coverEmoji": "🌅",
+      "excerpt": "Kalimat dzikir singkat untuk mengawali hari dengan hati yang tenang dan bersyukur."
+    },
+    {
+      "id": "dzikir:dzikir-petang-ringkas",
+      "slug": "dzikir-petang-ringkas",
+      "type": "dzikir",
+      "title": "Dzikir Petang Ringkas",
+      "category": "harian",
+      "coverEmoji": "🌇",
+      "excerpt": "Kalimat dzikir singkat untuk menutup hari, menenangkan hati sebelum istirahat malam."
+    }
+  ]
+}

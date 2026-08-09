@@ -1,0 +1,30 @@
+{
+  "name": "Hadiah dari Langit",
+  "short_name": "H. Langit",
+  "description": "Sahabat harian Bunda untuk doa, tirakat, dan afirmasi bagi buah hati.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#F5FBFF",
+  "theme_color": "#8CCEF2",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/maskable-icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

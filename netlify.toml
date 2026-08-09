@@ -1,0 +1,25 @@
+# Konfigurasi deploy Netlify untuk "Hadiah dari Langit".
+#
+# Next.js dijalankan lewat OpenNext adapter Netlify (zero-config, otomatis
+# terdeteksi dari `next` di package.json) — SENGAJA TIDAK memakai
+# `[[plugins]] package = "@netlify/plugin-nextjs"` yang dipin manual, karena
+# per dokumentasi Netlify saat ini itu berarti opt-out dari update adapter
+# otomatis. Lihat: https://docs.netlify.com/build/frameworks/framework-setup-guides/nextjs/overview/
+#
+# `npm run build` otomatis menjalankan `prebuild` (generate search-data.json
+# & daily-journey-pool.json dari /content) lewat npm lifecycle script —
+# lihat package.json, tidak perlu dipanggil terpisah di sini.
+
+[build]
+  command = "npm run build"
+
+[build.environment]
+  NODE_VERSION = "20"
+  NEXT_TELEMETRY_DISABLED = "1"
+
+# Netlify Function kustom untuk Naniash AI (proxy ke Gemini API) — TERPISAH
+# dari Netlify Function internal yang dibuat OpenNext adapter untuk SSR/
+# Route Handlers Next.js sendiri.
+[functions]
+  directory = "netlify/functions"
+  node_bundler = "esbuild"
