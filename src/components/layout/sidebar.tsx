@@ -4,7 +4,6 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 
 import { mainNavItems, settingsNavItem } from "@/config/navigation";
-import { siteConfig } from "@/config/site";
 import { Separator } from "@/components/ui/separator";
 import { cn } from "@/lib/utils";
 
@@ -62,14 +61,6 @@ export function Sidebar() {
         <SettingsIcon className="h-4.5 w-4.5" strokeWidth={isSettingsActive ? 2.25 : 1.75} />
         {settingsNavItem.title}
       </Link>
-
-      <Separator className="my-4" />
-
-      <p className="px-3 text-xs leading-relaxed text-muted-foreground">
-        {siteConfig.companion.name} — {siteConfig.companion.tagline}
-        <br />
-        hadir mulai Phase 3.
-      </p>
     </aside>
   );
 }

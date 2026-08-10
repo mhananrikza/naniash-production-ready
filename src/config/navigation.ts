@@ -29,7 +29,7 @@ export const mainNavItems: NavItem[] = [
   {
     title: "Tirakat Harian",
     shortTitle: "Tirakat",
-    href: "/tirakat",
+    href: "/perjalanan-harian",
     icon: ListChecks,
   },
   {

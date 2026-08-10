@@ -10,7 +10,7 @@ import { FavoriteButton } from "@/components/library/favorite-button";
 import { Naniash } from "@/components/naniash/naniash";
 import { Badge } from "@/components/ui/badge";
 import { Progress } from "@/components/ui/progress";
-import { useLibraryFavorites } from "@/hooks/use-library-favorites";
+import { useContentFavorite } from "@/hooks/use-content-favorite";
 import { useReadingProgress } from "@/hooks/use-reading-progress";
 import { getCategoryBySlug } from "@/config/library";
 import type { LibraryArticle } from "@/types";
@@ -22,14 +22,16 @@ export interface ArticleReaderProps {
 /**
  * Halaman detail/reader artikel. Melacak posisi scroll terhadap tinggi
  * konten untuk menyimpan progres baca (dipakai section "Lanjutkan
- * Membaca" di halaman daftar), dan menyediakan toggle favorit yang sama
- * dengan yang dipakai di kartu.
+ * Membaca" di halaman daftar), dan menyediakan toggle favorit lewat
+ * `useContentFavorite` (`favoritesService`/IndexedDB) — SATU sumber
+ * kebenaran yang sama dipakai halaman Favorit, Perpustakaan, dan
+ * `ContentReader`; bukan lagi `useLibraryFavorites` (localStorage).
  */
 export function ArticleReader({ article }: ArticleReaderProps) {
   const router = useRouter();
   const contentRef = React.useRef<HTMLDivElement>(null);
 
-  const { isFavorite, toggleFavorite } = useLibraryFavorites();
+  const { isFavorite, toggle: toggleFavorite } = useContentFavorite("artikel", article.slug);
   const { progressMap, updateProgress } = useReadingProgress();
 
   const category = getCategoryBySlug(article.category);
@@ -84,11 +86,7 @@ export function ArticleReader({ article }: ArticleReaderProps) {
           <ArrowLeft className="h-4 w-4" aria-hidden />
           Kembali ke Perpustakaan
         </button>
-        <FavoriteButton
-          active={isFavorite(article.slug)}
-          onToggle={() => toggleFavorite(article.slug)}
-          size="md"
-        />
+        <FavoriteButton active={isFavorite} onToggle={toggleFavorite} size="md" />
       </div>
 
       <Progress value={liveProgress} aria-label="Progres membaca artikel ini" />

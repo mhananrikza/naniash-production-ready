@@ -6,14 +6,20 @@ import { useInstallPrompt } from "@/hooks/use-install-prompt";
 import { Button } from "@/components/ui/button";
 
 /**
- * Banner ajakan instal PWA. Muncul di bawah layar (tidak menutupi
- * BottomNav berkat posisi `bottom-20`) hanya ketika:
+ * Banner ajakan instal PWA. Muncul di bawah layar hanya ketika:
  * - Chrome/Edge/Android: `beforeinstallprompt` sudah tertangkap
  *   (`canInstall`), tombol langsung memicu dialog instal native.
  * - iOS Safari: tidak ada API instal otomatis, jadi ditampilkan langkah
  *   manual "Bagikan -> Tambah ke Layar Utama".
  * Tidak tampil sama sekali kalau sudah berjalan sebagai app terinstal,
  * atau baru saja ditutup oleh Bunda (lihat cooldown di hook).
+ *
+ * Posisi bawah dihitung supaya selalu bersih dari BottomNav (yang tinggi
+ * totalnya berubah-ubah tergantung `safe-area-inset-bottom` perangkat) —
+ * bukan angka tetap seperti `bottom-20` yang bisa kepotong di iPhone
+ * dengan home indicator. Breakpoint pindah-ke-pojok-kanan disamakan
+ * dengan breakpoint BottomNav sendiri (`md:hidden`) supaya keduanya
+ * konsisten kapan BottomNav ada/tidak ada di layar.
  */
 export function InstallPrompt() {
   const { canInstall, showIosHint, promptInstall, dismiss } = useInstallPrompt();
@@ -24,7 +30,7 @@ export function InstallPrompt() {
     <div
       role="dialog"
       aria-label="Instal aplikasi"
-      className="fixed inset-x-4 bottom-20 z-40 mx-auto flex max-w-sm items-start gap-3 rounded-xl border border-border bg-card p-4 text-card-foreground shadow-lg sm:inset-x-auto sm:right-4 sm:bottom-4"
+      className="fixed z-40 mx-auto flex max-w-sm items-start gap-3 rounded-xl border border-border bg-card p-4 text-card-foreground shadow-lg left-[max(1rem,env(safe-area-inset-left))] right-[max(1rem,env(safe-area-inset-right))] bottom-[calc(5rem+env(safe-area-inset-bottom))] md:left-auto md:right-[max(1rem,env(safe-area-inset-right))] md:bottom-[max(1rem,env(safe-area-inset-bottom))]"
     >
       <span className="flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-primary/10 text-primary">
         <Download className="h-4 w-4" aria-hidden />
@@ -38,7 +44,7 @@ export function InstallPrompt() {
             <p className="text-xs text-muted-foreground">
               Akses lebih cepat dari layar utama, dan materi tetap terbuka walau tanpa internet.
             </p>
-            <Button size="sm" onClick={promptInstall} className="mt-1">
+            <Button size="sm" onClick={promptInstall} className="mt-1 min-h-11">
               Instal aplikasi
             </Button>
           </>
@@ -57,7 +63,7 @@ export function InstallPrompt() {
         type="button"
         onClick={dismiss}
         aria-label="Tutup ajakan instal"
-        className="shrink-0 rounded-md p-1 text-muted-foreground hover:bg-accent hover:text-accent-foreground"
+        className="-m-1.5 flex h-11 w-11 shrink-0 items-center justify-center rounded-md text-muted-foreground hover:bg-accent hover:text-accent-foreground active:bg-accent"
       >
         <X className="h-4 w-4" aria-hidden />
       </button>

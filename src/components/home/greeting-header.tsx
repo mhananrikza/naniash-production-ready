@@ -13,13 +13,19 @@ import { useDailyJourneyStreak } from "@/hooks/use-daily-journey-streak";
  * Badge streak dihitung dari riwayat Daily Journey Engine yang sungguh
  * tersimpan di IndexedDB (`useDailyJourneyStreak`), bukan angka contoh —
  * disembunyikan dulu selagi belum ada riwayat sama sekali.
+ *
+ * `priority` di Naniash mendorong Next.js mem-preload aset ini — komponen
+ * ini adalah elemen pertama yang tampil di Home, jadi biasanya jadi LCP
+ * (Largest Contentful Paint) di mobile. Tanpa `priority`, aset dimuat
+ * lazy dan bisa membuat sapaan pembuka terasa lambat muncul di koneksi
+ * lambat.
  */
 export function GreetingHeader() {
   const { streak, status } = useDailyJourneyStreak();
 
   return (
     <div className="flex items-start gap-3">
-      <Naniash pose="welcome" size={64} className="shrink-0" />
+      <Naniash pose="welcome" size={64} className="shrink-0" priority />
 
       <div className="min-w-0 flex-1 rounded-2xl rounded-tl-sm border border-border bg-card px-4 py-3 shadow-sm">
         <div className="flex items-start justify-between gap-2">

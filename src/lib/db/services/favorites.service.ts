@@ -7,10 +7,11 @@ function makeId(type: FavoriteType, refId: string): string {
 }
 
 /**
- * Layer bisnis untuk item favorit. Dipakai nanti oleh hook seperti
- * `useLibraryFavorites` sebagai pengganti localStorage — kontrak method
- * (`isFavorite`, `toggle`, `list`) sengaja dibuat mirip API hook lama
- * supaya migrasinya sederhana.
+ * Layer bisnis untuk item favorit — SATU sumber kebenaran untuk seluruh
+ * aplikasi (IndexedDB, bukan localStorage). Dipakai lewat `useContentFavorite`
+ * (satu item, halaman Reader) dan `useContentFavorites` (banyak item,
+ * Perpustakaan & Favorit); `useLibraryFavorites` (localStorage, versi lama
+ * khusus artikel) sudah dihapus.
  */
 export const favoritesService = {
   /** Daftar favorit, opsional difilter per tipe, terbaru lebih dulu. */

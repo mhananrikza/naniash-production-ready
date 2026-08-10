@@ -26,7 +26,7 @@ export function AppShell({ children }: AppShellProps) {
       <Header />
       <div className="container flex flex-1 gap-8">
         <Sidebar />
-        <main className="min-w-0 flex-1 pb-24 pt-6 md:pb-10">
+        <main className="min-w-0 flex-1 pb-[calc(4.5rem+max(0.75rem,env(safe-area-inset-bottom)))] pt-6 md:pb-10">
           <AnimatePresence mode="wait" initial={false}>
             <motion.div
               key={pathname}

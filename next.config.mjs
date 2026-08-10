@@ -25,7 +25,15 @@ import withPWAInit from "next-pwa";
  * dianggap "berubah" (dan di-refetch) tiap kali konten artikel diedit.
  */
 function getLibraryPrecacheEntries() {
-  const contentDir = path.join(process.cwd(), "content", "library");
+  // Folder sumber artikel Perpustakaan yang sebenarnya adalah
+  // `content/artikel/` (lihat Content Engine, `src/lib/library.ts` ->
+  // `getContentByCategory("artikel", ...)`). Sebelumnya path ini keliru
+  // menunjuk ke `content/library` (folder yang tidak pernah ada), jadi
+  // `fs.existsSync` selalu false dan artikel gagal ikut ter-precache saat
+  // instalasi PWA pertama — rute `/library/${slug}` di bawah TETAP benar,
+  // itu rute Next.js-nya (`src/app/(app)/library/[slug]/page.tsx`), yang
+  // salah cuma folder sumber Markdown-nya.
+  const contentDir = path.join(process.cwd(), "content", "artikel");
   const staticRoutes = ["/", "/library", "/offline", "/splash", "/welcome", "/onboarding", "/sobat-bunda"];
 
   const staticEntries = staticRoutes.map((url) => ({

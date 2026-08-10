@@ -14,7 +14,7 @@ import {
 } from "@/components/library/continue-reading-section";
 import { LatestArticlesSection } from "@/components/library/latest-articles-section";
 import { LibraryEmptyState } from "@/components/library/library-empty-state";
-import { useLibraryFavorites } from "@/hooks/use-library-favorites";
+import { useContentFavorites } from "@/hooks/use-content-favorites";
 import { useReadingProgress } from "@/hooks/use-reading-progress";
 import { scoreContentItem } from "@/utils/content";
 import type { ContentItemMeta } from "@/types/content";
@@ -32,8 +32,11 @@ const CONTINUE_READING_COUNT = 6;
  * SELURUH jenis materi (doa, dzikir, afirmasi, artikel) sebagai props
  * dari Server Component `app/(app)/library/page.tsx` — data ini datang
  * dari Content Engine (`getAllContent()`), bukan lagi khusus artikel.
- * Komponen ini sendiri tidak menyentuh `fs`, hanya state UI +
- * localStorage lewat hooks.
+ * Komponen ini sendiri tidak menyentuh `fs`, hanya state UI. Status favorit
+ * dibaca/ditulis lewat `useContentFavorites` (`favoritesService`/IndexedDB) —
+ * SATU sumber kebenaran yang sama dipakai halaman Favorit dan Reader,
+ * bukan lagi `useLibraryFavorites` (localStorage, khusus artikel & sudah
+ * tidak dipakai lagi).
  *
  * Pencarian: `searchContent()` di Content Engine membaca `fs`, jadi
  * tidak bisa dipanggil langsung dari Client Component ini. Karena
@@ -50,8 +53,27 @@ export function LibraryPageClient({ items }: LibraryPageClientProps) {
   const [typeFilter, setTypeFilter] = React.useState(ALL_CATEGORY_SLUG);
   const [favoritesOnly, setFavoritesOnly] = React.useState(false);
 
-  const { favorites, toggleFavorite } = useLibraryFavorites();
+  const { isFavorite, toggle: toggleFavoriteItem } = useContentFavorites();
   const { progressMap, inProgressEntries, hydrated: progressHydrated } = useReadingProgress();
+
+  // Kontrak `favorites: string[]` & `onToggleFavorite(slug)` di komponen
+  // anak (ArticleCard, ContinueReadingSection, LatestArticlesSection)
+  // sengaja dipertahankan supaya tidak perlu diubah — hanya sumber datanya
+  // yang diganti dari localStorage ke `useContentFavorites` (IndexedDB).
+  // Dicocokkan lewat `item.type` + slug (bukan slug saja) supaya jenis
+  // konten berbeda dengan slug kebetulan sama tidak pernah tertukar.
+  const favorites = React.useMemo(
+    () => items.filter((item) => isFavorite(item.type, item.slug)).map((item) => item.slug),
+    [items, isFavorite]
+  );
+
+  const toggleFavorite = React.useCallback(
+    (slug: string) => {
+      const item = items.find((candidate) => candidate.slug === slug);
+      if (item) toggleFavoriteItem(item.type, slug);
+    },
+    [items, toggleFavoriteItem]
+  );
 
   const latestArticles = React.useMemo(() => items.slice(0, LATEST_COUNT), [items]);
 
