@@ -15,7 +15,13 @@ export interface EmptyStateProps {
 export function EmptyState({ questions, onSelect }: EmptyStateProps) {
   return (
     <div className="flex flex-1 flex-col items-center justify-center gap-5 px-4 py-8 text-center">
-      <Naniash pose="ai" size={104} />
+      <div className="relative flex h-32 w-32 items-center justify-center">
+        <div
+          className="pointer-events-none absolute inset-0 rounded-full bg-gradient-langit opacity-70 blur-md"
+          aria-hidden
+        />
+        <Naniash pose="ai" size={112} priority className="relative" />
+      </div>
 
       <div className="space-y-1.5">
         <p className="font-display text-lg font-medium text-foreground">

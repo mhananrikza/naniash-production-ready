@@ -20,7 +20,7 @@ export function BottomNav() {
       aria-label="Navigasi utama"
       className="fixed inset-x-0 bottom-0 z-40 mx-auto flex w-full justify-center px-4 pb-[max(0.75rem,env(safe-area-inset-bottom))] md:hidden"
     >
-      <div className="flex w-full max-w-md items-center justify-between gap-1 rounded-2xl border border-border bg-card/95 px-2 py-2 shadow-lg shadow-black/5 backdrop-blur supports-[backdrop-filter]:bg-card/80">
+      <div className="flex w-full max-w-md items-center justify-between gap-1 rounded-2xl border border-langit-100 bg-gradient-to-r from-langit-50/95 via-card/95 to-senja-100/70 px-2 py-2 shadow-lg shadow-langit-500/10 backdrop-blur supports-[backdrop-filter]:from-langit-50/80 supports-[backdrop-filter]:via-card/80 supports-[backdrop-filter]:to-senja-100/60">
         {mainNavItems.map((item) => {
           const isActive =
             item.href === "/" ? pathname === "/" : pathname.startsWith(item.href);

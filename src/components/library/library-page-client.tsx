@@ -3,6 +3,7 @@
 import * as React from "react";
 import { BookOpen } from "lucide-react";
 
+import { Naniash } from "@/components/naniash/naniash";
 import { Reveal } from "@/components/ui/reveal";
 import { LibrarySearchBar } from "@/components/library/library-search-bar";
 import { CategoryFilter, ALL_CATEGORY_SLUG } from "@/components/library/category-filter";
@@ -15,83 +16,108 @@ import { LatestArticlesSection } from "@/components/library/latest-articles-sect
 import { LibraryEmptyState } from "@/components/library/library-empty-state";
 import { useLibraryFavorites } from "@/hooks/use-library-favorites";
 import { useReadingProgress } from "@/hooks/use-reading-progress";
-import type { LibraryArticleMeta } from "@/types";
+import { scoreContentItem } from "@/utils/content";
+import type { ContentItemMeta } from "@/types/content";
 
 export interface LibraryPageClientProps {
-  articles: LibraryArticleMeta[];
+  items: ContentItemMeta[];
 }
 
 const LATEST_COUNT = 6;
 const CONTINUE_READING_COUNT = 6;
 
 /**
- * Orkestrator interaktif halaman Perpustakaan: search, filter kategori,
- * favorit, "Lanjutkan Membaca", dan "Artikel Terbaru". Menerima data
- * artikel (hasil parsing Markdown) sebagai props dari Server Component
- * `app/(app)/library/page.tsx` — komponen ini sendiri tidak menyentuh
- * `fs`, hanya state UI + localStorage lewat hooks.
+ * Orkestrator interaktif halaman Perpustakaan: search, filter jenis
+ * materi, favorit, "Lanjutkan Membaca", dan "Artikel Terbaru". Menerima
+ * SELURUH jenis materi (doa, dzikir, afirmasi, artikel) sebagai props
+ * dari Server Component `app/(app)/library/page.tsx` — data ini datang
+ * dari Content Engine (`getAllContent()`), bukan lagi khusus artikel.
+ * Komponen ini sendiri tidak menyentuh `fs`, hanya state UI +
+ * localStorage lewat hooks.
+ *
+ * Pencarian: `searchContent()` di Content Engine membaca `fs`, jadi
+ * tidak bisa dipanggil langsung dari Client Component ini. Karena
+ * seluruh item (tanpa body Markdown) sudah tersedia di memori lewat
+ * props, pencarian di sini memakai `scoreContentItem` — fungsi scoring
+ * yang SAMA yang dipakai `searchContent()` secara internal
+ * (`@/utils/content/search.ts`, dibobot per field: judul, tags,
+ * kategori, excerpt, dan teks/latin+terjemahan+konteks untuk
+ * doa/dzikir/afirmasi) — bukan pencarian dummy baru. Hasilnya identik
+ * dengan `searchContent()`, hanya tanpa pembacaan `fs` yang berulang.
  */
-export function LibraryPageClient({ articles }: LibraryPageClientProps) {
+export function LibraryPageClient({ items }: LibraryPageClientProps) {
   const [query, setQuery] = React.useState("");
-  const [category, setCategory] = React.useState(ALL_CATEGORY_SLUG);
+  const [typeFilter, setTypeFilter] = React.useState(ALL_CATEGORY_SLUG);
   const [favoritesOnly, setFavoritesOnly] = React.useState(false);
 
   const { favorites, toggleFavorite } = useLibraryFavorites();
   const { progressMap, inProgressEntries, hydrated: progressHydrated } = useReadingProgress();
 
-  const latestArticles = React.useMemo(() => articles.slice(0, LATEST_COUNT), [articles]);
+  const latestArticles = React.useMemo(() => items.slice(0, LATEST_COUNT), [items]);
 
   const continueReadingItems = React.useMemo<ContinueReadingItem[]>(() => {
     if (!progressHydrated) return [];
     return inProgressEntries
       .map(([slug, entry]) => {
-        const article = articles.find((item) => item.slug === slug);
-        return article ? { article, progress: entry.progress } : null;
+        const item = items.find((candidate) => candidate.slug === slug);
+        return item ? { article: item, progress: entry.progress } : null;
       })
-      .filter((item): item is ContinueReadingItem => item !== null)
+      .filter((entry): entry is ContinueReadingItem => entry !== null)
       .slice(0, CONTINUE_READING_COUNT);
-  }, [inProgressEntries, progressHydrated, articles]);
+  }, [inProgressEntries, progressHydrated, items]);
 
-  const normalizedQuery = query.trim().toLowerCase();
+  const trimmedQuery = query.trim();
+
+  // Item yang cocok query (Content Engine scoring), diurutkan dari skor
+  // tertinggi — sama seperti hasil `searchContent()`. Jika query kosong,
+  // pakai urutan asli (`getAllContent()` sudah terbaru lebih dulu).
+  const searchedItems = React.useMemo(() => {
+    if (!trimmedQuery) return items;
+    return items
+      .map((item) => ({ item, score: scoreContentItem(item, trimmedQuery).score }))
+      .filter(({ score }) => score > 0)
+      .sort((a, b) => b.score - a.score)
+      .map(({ item }) => item);
+  }, [items, trimmedQuery]);
 
   const filteredArticles = React.useMemo(() => {
-    return articles.filter((article) => {
-      const matchesQuery =
-        normalizedQuery.length === 0 ||
-        article.title.toLowerCase().includes(normalizedQuery) ||
-        article.excerpt.toLowerCase().includes(normalizedQuery) ||
-        article.tags.some((tag) => tag.toLowerCase().includes(normalizedQuery));
-
-      const matchesCategory = category === ALL_CATEGORY_SLUG || article.category === category;
-      const matchesFavorite = !favoritesOnly || favorites.includes(article.slug);
-
-      return matchesQuery && matchesCategory && matchesFavorite;
+    return searchedItems.filter((item) => {
+      const matchesType = typeFilter === ALL_CATEGORY_SLUG || item.type === typeFilter;
+      const matchesFavorite = !favoritesOnly || favorites.includes(item.slug);
+      return matchesType && matchesFavorite;
     });
-  }, [articles, normalizedQuery, category, favoritesOnly, favorites]);
+  }, [searchedItems, typeFilter, favoritesOnly, favorites]);
 
-  const isFiltering = normalizedQuery.length > 0 || category !== ALL_CATEGORY_SLUG || favoritesOnly;
+  const isFiltering = trimmedQuery.length > 0 || typeFilter !== ALL_CATEGORY_SLUG || favoritesOnly;
 
   function handleResetFilters() {
     setQuery("");
-    setCategory(ALL_CATEGORY_SLUG);
+    setTypeFilter(ALL_CATEGORY_SLUG);
     setFavoritesOnly(false);
   }
 
   return (
     <div className="space-y-6 pb-4">
       <Reveal index={0}>
-        <div className="space-y-1">
-          <p className="flex items-center gap-1.5 text-xs font-medium uppercase tracking-wide text-primary">
-            <BookOpen className="h-3.5 w-3.5" aria-hidden />
-            Perpustakaan
-          </p>
-          <h1 className="font-display text-2xl font-semibold tracking-tight text-foreground">
-            Materi untuk Bunda
-          </h1>
-          <p className="text-sm text-muted-foreground">
-            Kumpulan bacaan seputar kehamilan, persalinan, dan pengasuhan — tersimpan rapi dan
-            mudah dicari.
-          </p>
+        <div className="relative flex items-center gap-4 overflow-hidden rounded-[1.75rem] bg-cahaya-100/50 px-5 py-5 sm:px-7 sm:py-6">
+          <div
+            className="pointer-events-none absolute -right-10 -top-10 h-32 w-32 rounded-full bg-cahaya-300/30 blur-xl"
+            aria-hidden
+          />
+          <Naniash pose="reading" size={92} priority className="relative shrink-0" />
+          <div className="relative space-y-1">
+            <p className="flex items-center gap-1.5 text-xs font-medium uppercase tracking-wide text-cahaya-700">
+              <BookOpen className="h-3.5 w-3.5" aria-hidden />
+              Perpustakaan
+            </p>
+            <h1 className="font-display text-2xl font-semibold tracking-tight text-foreground">
+              Materi untuk Bunda
+            </h1>
+            <p className="text-sm text-muted-foreground">
+              Kumpulan doa, dzikir, afirmasi, dan bacaan seputar kehamilan, persalinan, dan
+              pengasuhan — tersimpan rapi dan mudah dicari.
+            </p>
+          </div>
         </div>
       </Reveal>
 
@@ -101,8 +127,8 @@ export function LibraryPageClient({ articles }: LibraryPageClientProps) {
 
       <Reveal index={2}>
         <CategoryFilter
-          selected={category}
-          onSelect={setCategory}
+          selected={typeFilter}
+          onSelect={setTypeFilter}
           showFavoritesOnly={favoritesOnly}
           onToggleFavoritesOnly={() => setFavoritesOnly((prev) => !prev)}
         />

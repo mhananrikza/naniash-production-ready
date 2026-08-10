@@ -36,10 +36,10 @@ export function ContinueReadingCard({ articles }: ContinueReadingCardProps) {
 
       {article && latestEntry ? (
         <Link href={`/library/${article.slug}`} className="block">
-          <Card className="transition-shadow hover:shadow-md">
+          <Card className="border-cahaya-100 bg-cahaya-100/20 transition-shadow hover:shadow-md">
             <CardContent className="flex items-center gap-4 p-4">
-              <span className="flex h-14 w-14 shrink-0 items-center justify-center rounded-xl bg-secondary text-2xl">
-                {article.coverEmoji || <BookOpen className="h-6 w-6" strokeWidth={1.75} />}
+              <span className="flex h-14 w-14 shrink-0 items-center justify-center rounded-xl bg-cahaya-100 text-cahaya-700">
+                <BookOpen className="h-6 w-6" strokeWidth={1.75} />
               </span>
 
               <div className="min-w-0 flex-1 space-y-1.5">
@@ -62,9 +62,9 @@ export function ContinueReadingCard({ articles }: ContinueReadingCardProps) {
           </Card>
         </Link>
       ) : (
-        <Card>
+        <Card className="border-langit-100 bg-langit-50/40">
           <CardContent className="flex flex-col items-center gap-3 p-6 text-center">
-            <Naniash pose="reading" size={72} />
+            <Naniash pose="reading" size={88} />
             <p className="max-w-xs text-sm text-muted-foreground">
               Belum ada bacaan yang sedang dilanjutkan. Yuk mulai jelajah Perpustakaan bersama
               Naniash.

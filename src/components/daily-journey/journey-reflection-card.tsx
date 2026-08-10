@@ -1,7 +1,7 @@
 "use client";
 
 import * as React from "react";
-import { Check, Loader2 } from "lucide-react";
+import { Check, Loader2, BookOpen } from "lucide-react";
 import { AnimatePresence, motion, useReducedMotion } from "framer-motion";
 
 import { Card, CardContent } from "@/components/ui/card";
@@ -90,17 +90,17 @@ export function JourneyReflectionCard({ date, done, onComplete }: JourneyReflect
   const canSave = answer.trim().length > 0 && !saving;
 
   return (
-    <Card className={cn("overflow-hidden transition-colors", done ? "border-primary/40 bg-primary/5" : "border-border")}>
+    <Card className={cn("overflow-hidden transition-colors", done ? "border-primary/40 bg-primary/5" : "border-cahaya-100 bg-cahaya-100/20")}>
       <CardContent className="space-y-4 p-5">
         <div className="flex items-center gap-4">
           <div
             className={cn(
-              "flex h-14 w-14 shrink-0 items-center justify-center rounded-2xl text-2xl",
-              done ? "bg-primary/15" : "bg-muted"
+              "flex h-14 w-14 shrink-0 items-center justify-center rounded-2xl",
+              done ? "bg-primary/15 text-primary" : "bg-cahaya-100 text-cahaya-700"
             )}
             aria-hidden
           >
-            📝
+            <BookOpen className="h-6 w-6" strokeWidth={1.75} />
           </div>
 
           <div className="min-w-0 flex-1 space-y-1">

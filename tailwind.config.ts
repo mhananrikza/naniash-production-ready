@@ -4,10 +4,15 @@ import type { Config } from "tailwindcss";
  * Design tokens — "Hadiah dari Langit"
  *
  * Palette rationale (lihat DESIGN.md untuk detail lengkap):
- * - langit  : dusk-to-night indigo — warna dasar, menaungi seperti langit senja
- * - cahaya  : warm gold — "hadiah" itu sendiri, cahaya yang turun
- * - senja   : dusty rose — sentuhan hangat & keibuan
- * - nur     : deep plum-indigo — aksen teks/emphasis, dari kata "cahaya" dlm bhs Arab
+ * - langit  : sky blue pastel — warna dasar, menaungi seperti langit pagi berawan
+ * - cahaya  : soft gold — "hadiah" itu sendiri, cahaya lembut yang turun
+ * - senja   : dusty pink — sentuhan hangat & keibuan
+ * - nur     : soft lavender — aksen teks/emphasis, dari kata "cahaya" dlm bhs Arab
+ *
+ * [Visual redesign — sky/cloud/pink/lavender/gold pastel, lihat brief
+ * "Hadiah dari Langit" untuk detail. Nama token & struktur data TIDAK
+ * berubah, hanya nilai warna, supaya seluruh komponen yang sudah memakai
+ * token ini otomatis ikut ter-restyle tanpa perlu diedit satu-satu.]
  *
  * Semantic tokens (background, primary, dst.) dikontrol lewat CSS variables
  * di globals.css supaya light/dark mode konsisten dengan shadcn/ui.
@@ -61,32 +66,33 @@ const config: Config = {
         // Raw brand scale — dipakai untuk elemen dekoratif/gradient
         // yang butuh warna tetap, di luar pergantian light/dark.
         langit: {
-          50: "#F1EFFB",
-          100: "#DFDAF2",
-          300: "#8478C3",
-          500: "#463C82",
-          700: "#2C2555",
-          900: "#1E1B3A",
-          950: "#141230",
+          50: "#F1F8FD",
+          100: "#DCEDF9",
+          300: "#A9D3EE",
+          500: "#6FAEDD",
+          700: "#3E7FB0",
+          900: "#2A5C82",
+          950: "#1D4360",
         },
         cahaya: {
-          100: "#FBEACB",
-          300: "#F0C784",
-          500: "#E7A94C",
-          600: "#CE8F35",
-          700: "#A8712A",
+          100: "#FBEFD4",
+          300: "#F1D99D",
+          500: "#E7C179",
+          600: "#CBA152",
+          700: "#A87F3A",
         },
         senja: {
-          100: "#F6DEE1",
-          300: "#E6AEB4",
-          400: "#D98A94",
-          500: "#C96E7A",
-          700: "#9A4A56",
+          100: "#FCE9EC",
+          300: "#F1C7CD",
+          400: "#E4A7B0",
+          500: "#D48C97",
+          700: "#A15F6A",
         },
         nur: {
-          300: "#7B6FAE",
-          500: "#4A3F7A",
-          700: "#332B57",
+          100: "#EDE8F7",
+          300: "#C2B6E8",
+          500: "#9585CC",
+          700: "#6B5AA0",
         },
       },
       fontFamily: {

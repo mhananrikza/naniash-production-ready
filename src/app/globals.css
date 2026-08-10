@@ -6,77 +6,84 @@
  * Token system — "Hadiah dari Langit"
  * Semua nilai dalam H S% L% (tanpa fungsi hsl()) mengikuti konvensi shadcn/ui,
  * supaya bisa dipakai sebagai hsl(var(--x)) di tailwind.config.ts.
+ *
+ * [Visual redesign] Palet dipindah dari "dusk indigo" ke nuansa langit pagi
+ * berawan: sky blue pastel, cloud white/cream, dusty pink, sentuhan
+ * lavender, dan gold lembut sebagai accent — supaya terasa lembut, hangat,
+ * tenang, feminin, spiritual, premium (bukan dashboard SaaS generik).
+ * Nama variable TIDAK berubah, hanya nilainya.
  */
 @layer base {
   :root {
-    --background: 32 38% 97%;
-    --foreground: 258 28% 14%;
+    --background: 205 75% 97%;
+    --foreground: 255 20% 20%;
 
-    --card: 32 30% 99%;
-    --card-foreground: 258 28% 14%;
+    --card: 0 0% 100%;
+    --card-foreground: 255 20% 20%;
 
-    --popover: 32 30% 99%;
-    --popover-foreground: 258 28% 14%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 255 20% 20%;
 
-    --primary: 38 68% 58%;
-    --primary-foreground: 258 35% 12%;
+    --primary: 40 62% 62%;
+    --primary-foreground: 255 35% 16%;
 
-    --secondary: 350 42% 88%;
-    --secondary-foreground: 258 28% 18%;
+    --secondary: 350 55% 90%;
+    --secondary-foreground: 350 30% 28%;
 
-    --muted: 32 22% 92%;
-    --muted-foreground: 258 12% 42%;
+    --muted: 205 55% 95%;
+    --muted-foreground: 255 12% 45%;
 
-    --accent: 255 35% 30%;
-    --accent-foreground: 32 38% 97%;
+    --accent: 258 38% 60%;
+    --accent-foreground: 38 45% 97%;
 
-    --destructive: 3 68% 48%;
-    --destructive-foreground: 32 38% 97%;
+    --destructive: 3 60% 52%;
+    --destructive-foreground: 38 45% 97%;
 
-    --border: 32 20% 87%;
-    --input: 32 20% 87%;
-    --ring: 38 68% 58%;
+    --border: 205 35% 90%;
+    --input: 205 35% 90%;
+    --ring: 40 62% 55%;
 
     --radius: 1rem;
 
-    /* Signature gradient — senja (dusk) turning into malam (night) */
-    --langit-grad-start: 350 55% 82%;
-    --langit-grad-mid: 20 60% 74%;
-    --langit-grad-end: 258 40% 26%;
+    /* Signature gradient — "membuka halaman lembut dari langit": sky blue
+       pastel → cloud white → dusty pink pastel. Sangat subtle, bukan neon. */
+    --langit-grad-start: 201 84% 93%;
+    --langit-grad-mid: 204 56% 98%;
+    --langit-grad-end: 349 66% 92%;
   }
 
   .dark {
-    --background: 258 36% 12%;
-    --foreground: 32 28% 94%;
+    --background: 255 30% 13%;
+    --foreground: 38 28% 94%;
 
-    --card: 258 32% 15%;
-    --card-foreground: 32 28% 94%;
+    --card: 255 26% 17%;
+    --card-foreground: 38 28% 94%;
 
-    --popover: 258 32% 15%;
-    --popover-foreground: 32 28% 94%;
+    --popover: 255 26% 17%;
+    --popover-foreground: 38 28% 94%;
 
-    --primary: 38 74% 62%;
-    --primary-foreground: 258 40% 12%;
+    --primary: 40 68% 64%;
+    --primary-foreground: 255 40% 13%;
 
-    --secondary: 350 30% 32%;
-    --secondary-foreground: 32 28% 94%;
+    --secondary: 350 28% 32%;
+    --secondary-foreground: 38 28% 94%;
 
-    --muted: 258 20% 22%;
-    --muted-foreground: 32 14% 68%;
+    --muted: 255 20% 23%;
+    --muted-foreground: 38 14% 70%;
 
-    --accent: 350 38% 62%;
-    --accent-foreground: 258 40% 12%;
+    --accent: 258 32% 58%;
+    --accent-foreground: 38 28% 94%;
 
-    --destructive: 3 62% 42%;
-    --destructive-foreground: 32 28% 94%;
+    --destructive: 3 55% 45%;
+    --destructive-foreground: 38 28% 94%;
 
-    --border: 258 20% 24%;
-    --input: 258 20% 24%;
-    --ring: 38 74% 62%;
+    --border: 255 20% 26%;
+    --input: 255 20% 26%;
+    --ring: 40 68% 64%;
 
-    --langit-grad-start: 258 30% 20%;
-    --langit-grad-mid: 258 45% 16%;
-    --langit-grad-end: 258 55% 9%;
+    --langit-grad-start: 205 35% 26%;
+    --langit-grad-mid: 258 32% 22%;
+    --langit-grad-end: 350 25% 24%;
   }
 }
 

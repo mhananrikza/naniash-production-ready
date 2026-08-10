@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 
-import { getAllArticles } from "@/lib/library";
+import { getAllContent } from "@/services/content";
 import { LibraryPageClient } from "@/components/library/library-page-client";
 
 export const metadata: Metadata = {
@@ -9,17 +9,18 @@ export const metadata: Metadata = {
 };
 
 /**
- * Halaman Perpustakaan. Server Component ini yang menyentuh `fs` lewat
- * `lib/library.ts`; body Markdown (`content`) sengaja dibuang sebelum
- * dikirim ke Client Component supaya payload daftar tetap ringan —
- * body lengkap baru diambil di halaman detail `[slug]`.
+ * Halaman Perpustakaan. Server Component ini yang menyentuh `fs`, lewat
+ * Content Engine (`@/services/content`) — SUMBER TUNGGAL untuk seluruh
+ * jenis materi (`doa`, `dzikir`, `afirmasi`, `artikel`), bukan hanya
+ * artikel seperti versi lama (`@/lib/library`, yang tetap dipakai
+ * `app/(app)/library/[slug]` serta Home — lihat catatan di file itu).
+ *
+ * `getAllContent()` sudah mengembalikan bentuk *meta* (tanpa body
+ * Markdown) yang diurutkan terbaru lebih dulu, jadi tidak perlu diproses
+ * ulang di sini — payload yang dikirim ke Client Component tetap ringan.
  */
 export default function LibraryPage() {
-  const articles = getAllArticles().map((article) => {
-    const { slug, title, excerpt, category, tags, author, publishedAt, readingTimeMinutes, coverEmoji } =
-      article;
-    return { slug, title, excerpt, category, tags, author, publishedAt, readingTimeMinutes, coverEmoji };
-  });
+  const items = getAllContent();
 
-  return <LibraryPageClient articles={articles} />;
+  return <LibraryPageClient items={items} />;
 }

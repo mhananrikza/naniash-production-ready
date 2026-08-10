@@ -1,10 +1,10 @@
 "use client";
 
 import { ArticleCard } from "@/components/library/article-card";
-import type { LibraryArticleMeta } from "@/types";
+import type { ContentItemMeta } from "@/types/content";
 
 export interface ContinueReadingItem {
-  article: LibraryArticleMeta;
+  article: ContentItemMeta;
   progress: number;
 }
 

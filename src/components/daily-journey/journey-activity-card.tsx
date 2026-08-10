@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { Check } from "lucide-react";
+import type { LucideIcon } from "lucide-react";
 import { motion, useReducedMotion } from "framer-motion";
 
 import { Card, CardContent } from "@/components/ui/card";
@@ -11,7 +12,7 @@ import type { DailyJourneyPoolItem, DailyJourneySlot } from "@/types/daily-journ
 
 export interface JourneyActivityCardProps {
   slot: DailyJourneySlot;
-  icon: string;
+  icon: LucideIcon;
   label: string;
   item: DailyJourneyPoolItem;
   done: boolean;
@@ -26,27 +27,27 @@ export interface JourneyActivityCardProps {
  * Tidak ada engine atau store baru: status `done` murni dibaca dari
  * `useDailyJourney` (IndexedDB store `dailyJourney`, sudah ada).
  */
-export function JourneyActivityCard({ slot, icon, label, item, done }: JourneyActivityCardProps) {
+export function JourneyActivityCard({ slot, icon: Icon, label, item, done }: JourneyActivityCardProps) {
   const prefersReducedMotion = useReducedMotion();
 
   return (
     <Card
       className={cn(
         "overflow-hidden transition-colors",
-        done ? "border-primary/40 bg-primary/5" : "border-border"
+        done ? "border-primary/40 bg-primary/5" : "border-langit-100 bg-langit-50/40"
       )}
     >
       <CardContent className="flex items-center gap-4 p-5">
         <motion.div
           className={cn(
-            "flex h-14 w-14 shrink-0 items-center justify-center rounded-2xl text-2xl",
-            done ? "bg-primary/15" : "bg-muted"
+            "flex h-14 w-14 shrink-0 items-center justify-center rounded-2xl",
+            done ? "bg-primary/15 text-primary" : "bg-langit-100 text-langit-700"
           )}
           animate={done && !prefersReducedMotion ? { scale: [1, 1.12, 1] } : undefined}
           transition={{ duration: 0.4, ease: "easeOut" }}
           aria-hidden
         >
-          {icon}
+          <Icon className="h-6 w-6" strokeWidth={1.75} />
         </motion.div>
 
         <div className="min-w-0 flex-1 space-y-1">

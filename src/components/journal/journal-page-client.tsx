@@ -39,9 +39,13 @@ export function JournalPageClient() {
   return (
     <div className="mx-auto w-full max-w-2xl space-y-6 pb-16">
       {/* Header */}
-      <div className="flex flex-col items-center gap-4 text-center sm:flex-row sm:items-center sm:text-left">
-        <Naniash pose="journaling" size={72} className="shrink-0" />
-        <div className="space-y-1">
+      <div className="relative flex flex-col items-center gap-4 overflow-hidden rounded-[1.75rem] bg-senja-100/50 px-5 py-5 text-center sm:flex-row sm:items-center sm:px-7 sm:py-6 sm:text-left">
+        <div
+          className="pointer-events-none absolute -right-10 -top-10 h-32 w-32 rounded-full bg-senja-300/30 blur-xl"
+          aria-hidden
+        />
+        <Naniash pose="journaling" size={92} priority className="relative shrink-0" />
+        <div className="relative space-y-1">
           <h1 className="font-display text-xl font-semibold tracking-tight text-foreground sm:text-2xl">
             Journal Bunda
           </h1>

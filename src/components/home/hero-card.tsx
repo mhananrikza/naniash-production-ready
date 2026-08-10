@@ -9,21 +9,30 @@ import { NaniashFamily } from "@/components/naniash/naniash-family";
  */
 export function HeroCard() {
   return (
-    <div className="relative overflow-hidden rounded-2xl bg-gradient-langit p-6 text-langit-50 shadow-md sm:p-8">
+    <div className="relative overflow-hidden rounded-[2rem] bg-gradient-langit p-6 text-nur-700 shadow-md shadow-langit-500/10 sm:p-8">
       <div
-        className="pointer-events-none absolute -right-12 -top-16 h-48 w-48 rounded-full bg-cahaya-500/25 blur-2xl"
+        className="pointer-events-none absolute -right-14 -top-16 h-52 w-52 rounded-full bg-cahaya-300/40 blur-2xl"
         aria-hidden
       />
       <div
-        className="pointer-events-none absolute -bottom-20 -left-12 h-44 w-44 rounded-full bg-senja-400/20 blur-2xl"
+        className="pointer-events-none absolute -bottom-20 -left-14 h-48 w-48 rounded-full bg-senja-300/40 blur-2xl"
+        aria-hidden
+      />
+      <div
+        className="pointer-events-none absolute right-1/3 top-2 h-24 w-24 rounded-full bg-langit-50/60 blur-xl"
         aria-hidden
       />
 
       <div className="relative flex flex-col items-center gap-5 text-center sm:flex-row sm:items-center sm:gap-8 sm:text-left">
-        <NaniashFamily scene="family" size={128} className="shrink-0" />
+        <NaniashFamily
+          scene="family"
+          size={168}
+          priority
+          className="shrink-0 drop-shadow-[0_10px_24px_rgba(107,90,160,0.18)]"
+        />
 
         <div className="max-w-md space-y-4">
-          <p className="font-display text-xl font-medium leading-snug tracking-tight sm:text-2xl">
+          <p className="font-display text-xl font-medium leading-snug tracking-tight text-nur-700 sm:text-2xl">
             Hari ini tidak harus sempurna.
             <br />
             Cukup luangkan beberapa menit untuk mendekat kepada Allah.

@@ -4,10 +4,11 @@ import * as React from "react";
 import { Heart } from "lucide-react";
 
 import { cn } from "@/lib/utils";
-import { contentTypeMeta } from "@/config/content-type";
-import { CONTENT_TYPES, type ContentType } from "@/types/content";
+import { dzikirCategories } from "@/config/dzikir";
 
-export interface CategoryFilterProps {
+export const ALL_DZIKIR_CATEGORY_SLUG = "semua";
+
+export interface DzikirCategoryFilterProps {
   selected: string;
   onSelect: (slug: string) => void;
   showFavoritesOnly: boolean;
@@ -15,43 +16,25 @@ export interface CategoryFilterProps {
   className?: string;
 }
 
-export const ALL_CATEGORY_SLUG = "semua";
-
-/**
- * Baris chip filter yang bisa discroll horizontal — "Semua", tiap jenis
- * materi Content Engine (Doa, Dzikir, Afirmasi, Artikel), lalu chip
- * "Favorit" terpisah di ujung.
- *
- * Sebelumnya chip ini bersumber dari `config/library.ts` (taksonomi
- * tematik khusus artikel, mis. "kehamilan", "parenting") — tidak
- * berfungsi untuk doa/dzikir/afirmasi karena `category` masing-masing
- * jenis konten memakai kosakata berbeda (lihat frontmatter di
- * `content/doa`, `content/afirmasi`, dst., tidak beririsan dengan
- * `config/library.ts`). Sekarang chip bersumber dari `contentTypeMeta`
- * (`@/config/content-type`, sudah dipakai Reader universal) supaya
- * filter benar-benar bekerja lintas seluruh jenis materi tanpa daftar
- * kategori baru yang di-hardcode di sini.
- */
-export function CategoryFilter({
+export function DzikirCategoryFilter({
   selected,
   onSelect,
   showFavoritesOnly,
   onToggleFavoritesOnly,
   className,
-}: CategoryFilterProps) {
+}: DzikirCategoryFilterProps) {
   return (
     <div className={cn("flex gap-2 overflow-x-auto scrollbar-none pb-1", className)}>
-      <Chip active={selected === ALL_CATEGORY_SLUG} onClick={() => onSelect(ALL_CATEGORY_SLUG)}>
+      <Chip active={selected === ALL_DZIKIR_CATEGORY_SLUG} onClick={() => onSelect(ALL_DZIKIR_CATEGORY_SLUG)}>
         Semua
       </Chip>
 
-      {CONTENT_TYPES.map((type: ContentType) => {
-        const meta = contentTypeMeta[type];
-        const Icon = meta.icon;
+      {dzikirCategories.map((category) => {
+        const Icon = category.icon;
         return (
-          <Chip key={type} active={selected === type} onClick={() => onSelect(type)}>
+          <Chip key={category.slug} active={selected === category.slug} onClick={() => onSelect(category.slug)}>
             <Icon className="h-3.5 w-3.5" />
-            {meta.label}
+            {category.name}
           </Chip>
         );
       })}

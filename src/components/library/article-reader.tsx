@@ -7,6 +7,7 @@ import remarkGfm from "remark-gfm";
 import { ArrowLeft, CalendarDays, Clock } from "lucide-react";
 
 import { FavoriteButton } from "@/components/library/favorite-button";
+import { Naniash } from "@/components/naniash/naniash";
 import { Badge } from "@/components/ui/badge";
 import { Progress } from "@/components/ui/progress";
 import { useLibraryFavorites } from "@/hooks/use-library-favorites";
@@ -94,12 +95,13 @@ export function ArticleReader({ article }: ArticleReaderProps) {
 
       <header className="space-y-3">
         <div className="flex items-center gap-3">
-          <span
-            className="flex h-14 w-14 items-center justify-center rounded-2xl bg-gradient-langit text-2xl"
-            aria-hidden
-          >
-            {article.coverEmoji}
-          </span>
+          <div className="relative flex h-16 w-16 shrink-0 items-center justify-center">
+            <div
+              className="pointer-events-none absolute inset-0 rounded-2xl bg-gradient-langit opacity-80 blur-[2px]"
+              aria-hidden
+            />
+            <Naniash pose="reading" size={56} className="relative" decorative />
+          </div>
           {category && (
             <Badge variant="secondary" className="gap-1">
               {CategoryIcon && <CategoryIcon className="h-3 w-3" />}

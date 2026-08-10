@@ -1,6 +1,8 @@
 "use client";
 
 import { motion, useReducedMotion } from "framer-motion";
+import { HandHeart, Repeat, Sun, BookOpen } from "lucide-react";
+import type { LucideIcon } from "lucide-react";
 
 import { NaniashFamily } from "@/components/naniash/naniash-family";
 import { Skeleton } from "@/components/ui/skeleton";
@@ -16,11 +18,12 @@ const CIRCUMFERENCE = 2 * Math.PI * RADIUS;
 /** Urutan tampil tetap: Doa → Dzikir → Afirmasi → Refleksi, sama seperti `DailyJourneyCard` di Home. */
 const SLOT_ORDER: DailyJourneySlot[] = ["doa", "dzikir", "afirmasi", "artikel"];
 
-const SLOT_META: Record<DailyJourneySlot, { icon: string; label: string }> = {
-  doa: { icon: "🤲", label: "Doa" },
-  dzikir: { icon: "📿", label: "Dzikir" },
-  afirmasi: { icon: "✨", label: "Afirmasi" },
-  artikel: { icon: "📝", label: "Refleksi" },
+/** Icon system konsisten (lucide) — sama dengan `QuickAccess` di Home, bukan emoji per slot. */
+const SLOT_META: Record<DailyJourneySlot, { icon: LucideIcon; label: string }> = {
+  doa: { icon: HandHeart, label: "Doa" },
+  dzikir: { icon: Repeat, label: "Dzikir" },
+  afirmasi: { icon: Sun, label: "Afirmasi" },
+  artikel: { icon: BookOpen, label: "Refleksi" },
 };
 
 function ProgressRing({ percent }: { percent: number }) {

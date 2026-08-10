@@ -65,7 +65,7 @@ export function DoaHariIniCard({ status, day }: DoaHariIniCardProps) {
     <div className="space-y-3">
       <SectionHeading title="Doa Hari Ini" href="/doa" />
 
-      <Card>
+      <Card className="border-langit-100 bg-langit-50/40">
         <CardContent className="space-y-3 p-5">
           {status === "loading" || status === "idle" || !doa ? (
             <div className="space-y-3">
@@ -79,7 +79,7 @@ export function DoaHariIniCard({ status, day }: DoaHariIniCardProps) {
                 <div className="min-w-0 space-y-1">
                   <Badge variant="secondary">{doa.category}</Badge>
                   <p className="font-display text-base font-medium leading-snug text-foreground">
-                    {doa.coverEmoji} {doa.title}
+                    {doa.title}
                   </p>
                 </div>
 

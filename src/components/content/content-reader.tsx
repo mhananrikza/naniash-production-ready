@@ -5,7 +5,7 @@ import { useRouter, useSearchParams } from "next/navigation";
 import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
 import { motion, useReducedMotion } from "framer-motion";
-import { ArrowLeft, Share2, Minus, Plus, Copy, Check, Loader2, PartyPopper } from "lucide-react";
+import { ArrowLeft, Share2, Minus, Plus, Copy, Check, Loader2, PartyPopper, Heart } from "lucide-react";
 
 import { Badge } from "@/components/ui/badge";
 import { Progress } from "@/components/ui/progress";
@@ -174,7 +174,7 @@ export function ContentReader({ item }: ContentReaderProps) {
                 : "border-border text-muted-foreground hover:border-primary/40 hover:text-foreground"
             )}
           >
-            <span aria-hidden>{isFavorite ? "❤️" : "♡"}</span>
+            <Heart className="h-3.5 w-3.5" aria-hidden fill={isFavorite ? "currentColor" : "none"} />
             {isFavorite ? "Favorit" : "Simpan"}
           </button>
         </div>
@@ -199,16 +199,19 @@ export function ContentReader({ item }: ContentReaderProps) {
 
       {/* Header konten: ilustrasi, badge, judul */}
       <header className="space-y-4 text-center">
-        <Naniash pose="reading" size={72} className="mx-auto" />
+        <div className="relative mx-auto flex h-24 w-24 items-center justify-center">
+          <div
+            className="pointer-events-none absolute inset-0 rounded-full bg-langit-100/60 blur-lg"
+            aria-hidden
+          />
+          <Naniash pose="reading" size={88} className="relative" />
+        </div>
 
         <div className="flex items-center justify-center gap-2">
           <Badge variant="secondary" className="gap-1">
             <TypeIcon className="h-3 w-3" aria-hidden />
             {meta.label}
           </Badge>
-          <span className="text-2xl" aria-hidden>
-            {item.coverEmoji}
-          </span>
         </div>
 
         <h1 className="font-display text-2xl font-semibold leading-tight tracking-tight text-foreground sm:text-3xl">

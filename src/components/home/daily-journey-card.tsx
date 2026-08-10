@@ -91,7 +91,7 @@ export function DailyJourneyCard({ status, day, error, setSlotComplete }: DailyJ
         </div>
       </div>
 
-      <Card>
+      <Card className="border-langit-100 bg-langit-50/40">
         <CardContent className="space-y-4 p-5">
           {status === "loading" || status === "idle" ? (
             <div className="flex items-center gap-5">
