@@ -1,6 +1,6 @@
 export const siteConfig = {
   name: "Hadiah dari Langit",
-  shortName: "H. Langit",
+  shortName: "HDL",
   description:
     "Sahabat harian Bunda untuk doa, tirakat, dan afirmasi bagi buah hati.",
   url: process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000",
